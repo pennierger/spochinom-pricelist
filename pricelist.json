@@ -1,0 +1,8400 @@
+[
+  {
+    "brand": "iPhone",
+    "model": "iPhone 6 Plus",
+    "model_number": "A1522, A1524, A1593",
+    "short_name": "iphone6plu",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "1000(экран отдельно)",
+      "battery": "2000",
+      "back": "2000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPhone",
+    "model": "iPhone 6s Plus",
+    "model_number": "A1634, A1687, A1699",
+    "short_name": "iphone6spl",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "1000(экран отдельно)",
+      "battery": "2000",
+      "back": "2000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPhone",
+    "model": "iPhone 6",
+    "model_number": "A1549,A1586,A1589",
+    "short_name": "iphone6",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "1000(экран отдельно)",
+      "battery": "2000",
+      "back": "2000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPhone",
+    "model": "iPhone 6s",
+    "model_number": "A1633,A1688,A1700",
+    "short_name": "iphone6s",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "1000(экран отдельно)",
+      "battery": "2000",
+      "back": "2000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPhone",
+    "model": "iPhone 7",
+    "model_number": "A1660,A1778,A1779",
+    "short_name": "iphone7",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "1000(экран отдельно)",
+      "battery": "2000",
+      "back": "2000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPhone",
+    "model": "iPhone 7 Plus",
+    "model_number": "A1661,A1784,A1785",
+    "short_name": "iphone7plu",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "1000(экран отдельно)",
+      "battery": "2000",
+      "back": "2000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPhone",
+    "model": "iPhone 8 Plus",
+    "model_number": "A1864,A1897,A1898",
+    "short_name": "iphone8plu",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "1000(экран отдельно)",
+      "battery": "2000",
+      "back": "2000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPhone",
+    "model": "iPhone 8",
+    "model_number": "A1863,A1905,A1906",
+    "short_name": "iphone8",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "1000(экран отдельно)",
+      "battery": "2000",
+      "back": "2000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPhone",
+    "model": "iPhone SE 2020",
+    "model_number": "A2275,A2296,A2298",
+    "short_name": "SE 2020",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "1000(экран отдельно)",
+      "battery": "2000",
+      "back": "2000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPhone",
+    "model": "iPhone SE 2022",
+    "model_number": "A2595,A2782,A2784,A2785",
+    "short_name": "SE 2022",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "1000(экран отдельно)",
+      "battery": "2000",
+      "back": "2000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPhone",
+    "model": "iPhone X",
+    "model_number": "A1865,A1901,A1902",
+    "short_name": "X",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "3000",
+      "back": "2000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPhone",
+    "model": "iPhone XR",
+    "model_number": "A1984,A2105,A2106,A2107,A2108",
+    "short_name": "XR",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "3000",
+      "back": "2000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPhone",
+    "model": "iPhone XS",
+    "model_number": "A2097,A2098,A2099,A2100",
+    "short_name": "xs",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "3000",
+      "back": "2000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPhone",
+    "model": "iPhone XS MAX",
+    "model_number": "A1921,A2101,A2102,A2103,A2104",
+    "short_name": "xsmax",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "3000",
+      "back": "2000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPhone",
+    "model": "iPhone 11",
+    "model_number": "A2111,A2221,A2223",
+    "short_name": "11",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000(только тач+чип)",
+      "battery": "3000",
+      "back": "2500",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPhone",
+    "model": "iPhone 11 PRO",
+    "model_number": "A2160,A2215,A2217",
+    "short_name": "11 pro",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000(4000 тач+чип)",
+      "battery": "3000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPhone",
+    "model": "iPhone 11 PRO MAX",
+    "model_number": "A2161,A2218,A2220",
+    "short_name": "11 pro max",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000(4000 тач+чип)",
+      "battery": "3000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPhone",
+    "model": "iPhone 12",
+    "model_number": "A2172,A2402,A2403,A2404",
+    "short_name": "12",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000(4000 тач+чип)",
+      "battery": "4000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPhone",
+    "model": "iPhone 12 Mini",
+    "model_number": "A2176,A2398,A2399,A2400",
+    "short_name": "12 mini",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3500",
+      "battery": "4000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPhone",
+    "model": "iPhone 12 PRO",
+    "model_number": "A2341,A2406,A2407,A2408",
+    "short_name": "12 pro",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4000(тач+чип)",
+      "battery": "4000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPhone",
+    "model": "iPhone 12 PRO MAX",
+    "model_number": "A2342,A2410,A2412",
+    "short_name": "12 pro max",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4500",
+      "battery": "4000",
+      "back": "3500",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPhone",
+    "model": "iPhone 13",
+    "model_number": "A2481,A2631,A2634",
+    "short_name": "13",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4000",
+      "battery": "4500",
+      "back": "3500",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPhone",
+    "model": "iPhone 13 Mini",
+    "model_number": "A2483,A2626,A2629",
+    "short_name": "13mini",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4000",
+      "battery": "4500",
+      "back": "3500",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPhone",
+    "model": "iPhone 13 PRO",
+    "model_number": "A2485,A2636,A2639",
+    "short_name": "13pro",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4000",
+      "battery": "4500",
+      "back": "5000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPhone",
+    "model": "iPhone 13 PRO MAX",
+    "model_number": "A2487,A2640,A2643",
+    "short_name": "13promax",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "5000",
+      "battery": "4500",
+      "back": "5000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPhone",
+    "model": "iPhone 14",
+    "model_number": "A2649,A2881,A2883",
+    "short_name": "14",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4000",
+      "battery": "4500",
+      "back": "3500",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPhone",
+    "model": "iPhone 14 PLUS",
+    "model_number": "A2632,A2885,A2887",
+    "short_name": "14plus",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "5000",
+      "battery": "4500",
+      "back": "3500",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPhone",
+    "model": "iPhone 14 PRO",
+    "model_number": "A2650,A2889,A2891",
+    "short_name": "14pro",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "5000",
+      "battery": "4500",
+      "back": "5000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPhone",
+    "model": "iPhone 14 PRO MAX",
+    "model_number": "A2651,A2893,A2895",
+    "short_name": "14promax",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "6000",
+      "battery": "5000",
+      "back": "5000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPhone",
+    "model": "iPhone 15",
+    "model_number": "A2846,A3089,A3090",
+    "short_name": "15",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "5000",
+      "battery": "4500",
+      "back": "3500",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPhone",
+    "model": "iPhone 15 PLUS",
+    "model_number": "A2847,A3091,A3092",
+    "short_name": "15plus",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "5000",
+      "battery": "4500",
+      "back": "3500",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPhone",
+    "model": "iPhone 15 PRO",
+    "model_number": "A2848,A3101,A3102",
+    "short_name": "15pro",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "7000",
+      "battery": "5500",
+      "back": "5000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPhone",
+    "model": "iPhone 15 PRO MAX",
+    "model_number": "A2849,A3103,A3104",
+    "short_name": "15promax",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "7000",
+      "battery": "5500",
+      "back": "5000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPhone",
+    "model": "iPhone 16e",
+    "model_number": "A3212,A3408,A3410,A3409",
+    "short_name": "16e",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4000",
+      "battery": "4500",
+      "back": "3500",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPhone",
+    "model": "iPhone 16",
+    "model_number": "A3081,A3286,A3288,A3287",
+    "short_name": "16",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "6000",
+      "battery": "4500",
+      "back": "5000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPhone",
+    "model": "iPhone 16 Plus",
+    "model_number": "A3082,A3289,A3291,A3290",
+    "short_name": "16plus",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "6500",
+      "battery": "5500",
+      "back": "5000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPhone",
+    "model": "iPhone 16 PRO",
+    "model_number": "A3083,A3292,A3294,A3293",
+    "short_name": "16pro",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "8000",
+      "battery": "6500",
+      "back": "5000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPhone",
+    "model": "iPhone 16 PRO MAX",
+    "model_number": "A3084,A3295,A3297,A3296",
+    "short_name": "16promax",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "9000",
+      "battery": "6500",
+      "back": "5000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPhone",
+    "model": "iPhone 17",
+    "model_number": "A3258,A3519,A3520,A3521",
+    "short_name": "17",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "9000",
+      "battery": "10000",
+      "back": "4500",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPhone",
+    "model": "iPhone Air(iPhone 17 Air)",
+    "model_number": "A3260,A3516,A3517,A3518",
+    "short_name": "air",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "12000",
+      "battery": "10000",
+      "back": "13500",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPhone",
+    "model": "iPhone 17 PRO",
+    "model_number": "A3256,A3522,A3523,A3524",
+    "short_name": "17pro",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "13000",
+      "battery": "10000",
+      "back": "5000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPhone",
+    "model": "iPhone 17 PRO MAX",
+    "model_number": "A3257,A3525,A3526,A3527",
+    "short_name": "17promax",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "13000",
+      "battery": "10000",
+      "back": "5000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPad",
+    "model": "iPad 7 2019",
+    "model_number": "A2197, A2200,A2198, A2201",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "3500",
+      "battery": "6000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPad",
+    "model": "iPad 8 2020",
+    "model_number": "A2270,A2428, A2429, A2430",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "3500",
+      "battery": "6000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPad",
+    "model": "iPad 9 2021",
+    "model_number": "A2602,A2603,A2604,A2605",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "3500",
+      "battery": "6000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPad",
+    "model": "iPad 10 2022",
+    "model_number": "A2696,A2757,A2697,A2758",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "4000",
+      "battery": "6000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPad",
+    "model": "iPad 11 2025",
+    "model_number": "A3354,A3355,A3356",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "4000",
+      "battery": "6000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPad",
+    "model": "iPad Air 2",
+    "model_number": "A1566,A1567",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "4000",
+      "battery": "6000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPad",
+    "model": "iPad Air 3",
+    "model_number": "A2152,A2123, A2153, A2154",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "5000",
+      "battery": "6000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPad",
+    "model": "iPad Air 4",
+    "model_number": "A2316,A2324,A2325,A2072",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "6000",
+      "battery": "6000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPad",
+    "model": "iPad Air 5",
+    "model_number": "A2588,A2589,A2591",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "6000",
+      "battery": "6000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPad",
+    "model": "iPad Air 6 11\" 2024",
+    "model_number": "A2898,A2899,A2902",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "9000",
+      "battery": "6000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPad",
+    "model": "iPad Air 6 13\" 2024",
+    "model_number": "A2901,A2903,A2904",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "12500",
+      "battery": "6000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPad",
+    "model": "iPad Mini 4",
+    "model_number": "A1538,A1550",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "3500",
+      "battery": "6000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPad",
+    "model": "iPad Mini 5",
+    "model_number": "A2133,A2124, A2125, A2126",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "3500",
+      "battery": "6000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPad",
+    "model": "iPad Mini 6",
+    "model_number": "A2567,A2568, A2569",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "7000",
+      "battery": "6000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPad",
+    "model": "iPad Mini 7",
+    "model_number": "A2567,A2568,A2569,A2993,A2995,A2996",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "7500",
+      "battery": "6000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPad",
+    "model": "iPad PRO 9.7 2015",
+    "model_number": "A1673,A1674, A1675",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "5000",
+      "battery": "6000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPad",
+    "model": "iPad PRO 10.5 2017",
+    "model_number": "A1701,A1709, A1852",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "5000",
+      "battery": "6000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPad",
+    "model": "iPad PRO 11 2018",
+    "model_number": "A1980,A2013,A1934,A1979,A2014",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "7000",
+      "battery": "6000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPad",
+    "model": "iPad PRO 11 2020",
+    "model_number": "A2228,A2068,A2230,A2231,A2069",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "7000",
+      "battery": "6000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPad",
+    "model": "iPad PRO 11 2021",
+    "model_number": "A2377,A2459,A2301,A2378",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "7500",
+      "battery": "6000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPad",
+    "model": "iPad PRO 11 2022",
+    "model_number": "A2759,A2761,A2762",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "7500",
+      "battery": "6000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPad",
+    "model": "iPad PRO 12.9 2015",
+    "model_number": "A1584,A1652",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "8000(только стекло)",
+      "battery": "6000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPad",
+    "model": "iPad PRO 12.9 2017",
+    "model_number": "A1670,A1671,A1821",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "8000(только стекло)",
+      "battery": "6000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPad",
+    "model": "iPad PRO 12.9 2018",
+    "model_number": "A1876,A1895,A1983,A2014,A1896",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "9500",
+      "battery": "6000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPad",
+    "model": "iPad PRO 12.9 2020",
+    "model_number": "A2229,A2068,A2233,A2234,A2069",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "9500",
+      "battery": "6000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPad",
+    "model": "iPad PRO 12.9 2021",
+    "model_number": "A2378,A2460,A2461,A2379,A2380",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "9500",
+      "battery": "6000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPad",
+    "model": "iPad PRO 12.9 2022",
+    "model_number": "A2436,A2764,A2766,A2437",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "9500",
+      "battery": "6000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPad",
+    "model": "iPad PRO 11 2024",
+    "model_number": "A2836, A2837,A2838,A2839",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "20000\n(с рисками),\n40000\n(без рисков)",
+      "battery": "12000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPad",
+    "model": "iPad PRO 13 2024",
+    "model_number": "A2892, A2893,A2894,A2895",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "20000\n(с рисками),\n40000\n(без рисков)",
+      "battery": "12000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "iPad",
+    "model": "iPad PRO 13 M4",
+    "model_number": "A2925,A2926,A3007",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "20000\n(с рисками),\n40000\n(без рисков)",
+      "battery": "12000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Apple Watch",
+    "model": "Apple Watch 1 38mm",
+    "model_number": "A1802, A1803",
+    "short_name": "",
+    "device_type": "часы",
+    "prices": {
+      "glass": "2000",
+      "battery": "2500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Apple Watch",
+    "model": "Apple Watch 1 42mm",
+    "model_number": "A1802, A1803",
+    "short_name": "",
+    "device_type": "часы",
+    "prices": {
+      "glass": "2000",
+      "battery": "2500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Apple Watch",
+    "model": "Apple Watch 2 38mm",
+    "model_number": "A1757, A1758",
+    "short_name": "",
+    "device_type": "часы",
+    "prices": {
+      "glass": "3500",
+      "battery": "3000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Apple Watch",
+    "model": "Apple Watch 2 42mm",
+    "model_number": "A1757, A1758",
+    "short_name": "",
+    "device_type": "часы",
+    "prices": {
+      "glass": "3500",
+      "battery": "3000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Apple Watch",
+    "model": "Apple Watch 3 38mm",
+    "model_number": "A1860, A1889, A1890,A1861, A1891, A1892",
+    "short_name": "",
+    "device_type": "часы",
+    "prices": {
+      "glass": "3500",
+      "battery": "3000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Apple Watch",
+    "model": "Apple Watch 3 42mm",
+    "model_number": "A1860, A1889, A1890,A1861, A1891, A1892",
+    "short_name": "",
+    "device_type": "часы",
+    "prices": {
+      "glass": "3500",
+      "battery": "3000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Apple Watch",
+    "model": "Apple Watch 4 40mm",
+    "model_number": "A1975, A2007,A1976, A2008",
+    "short_name": "",
+    "device_type": "часы",
+    "prices": {
+      "glass": "4000",
+      "battery": "3000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Apple Watch",
+    "model": "Apple Watch 4 44mm",
+    "model_number": "A1975, A2007,A1976, A2008",
+    "short_name": "",
+    "device_type": "часы",
+    "prices": {
+      "glass": "4000",
+      "battery": "3000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Apple Watch",
+    "model": "Apple Watch 5 40mm",
+    "model_number": "A2092, A2093",
+    "short_name": "",
+    "device_type": "часы",
+    "prices": {
+      "glass": "4000",
+      "battery": "3000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Apple Watch",
+    "model": "Apple Watch 5 44mm",
+    "model_number": "A2092, A2093",
+    "short_name": "",
+    "device_type": "часы",
+    "prices": {
+      "glass": "4000",
+      "battery": "3000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Apple Watch",
+    "model": "Apple Watch SE 40mm",
+    "model_number": "A2351, A2352",
+    "short_name": "",
+    "device_type": "часы",
+    "prices": {
+      "glass": "4000",
+      "battery": "3000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Apple Watch",
+    "model": "Apple Watch SE 44mm",
+    "model_number": "A2353, A2354",
+    "short_name": "",
+    "device_type": "часы",
+    "prices": {
+      "glass": "4000",
+      "battery": "3000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Apple Watch",
+    "model": "Apple Watch SE2 40mm",
+    "model_number": "A2722, A2723",
+    "short_name": "",
+    "device_type": "часы",
+    "prices": {
+      "glass": "4000",
+      "battery": "3000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Apple Watch",
+    "model": "Apple Watch SE2 44mm",
+    "model_number": "A2724, A2725",
+    "short_name": "",
+    "device_type": "часы",
+    "prices": {
+      "glass": "4000",
+      "battery": "3000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Apple Watch",
+    "model": "Apple Watch SE3 40mm",
+    "model_number": "A3324,A3391",
+    "short_name": "",
+    "device_type": "часы",
+    "prices": {
+      "glass": "4000",
+      "battery": "3000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Apple Watch",
+    "model": "Apple Watch SE3 44mm",
+    "model_number": "A3325,A3392",
+    "short_name": "",
+    "device_type": "часы",
+    "prices": {
+      "glass": "4000",
+      "battery": "3000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Apple Watch",
+    "model": "Apple Watch 6 40mm",
+    "model_number": "A2291, A2292",
+    "short_name": "",
+    "device_type": "часы",
+    "prices": {
+      "glass": "4000",
+      "battery": "3000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Apple Watch",
+    "model": "Apple Watch 6 44mm",
+    "model_number": "A2293, A2294",
+    "short_name": "",
+    "device_type": "часы",
+    "prices": {
+      "glass": "4000",
+      "battery": "3000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Apple Watch",
+    "model": "Apple Watch 7 41mm",
+    "model_number": "A2473, A2474",
+    "short_name": "",
+    "device_type": "часы",
+    "prices": {
+      "glass": "4000",
+      "battery": "3500",
+      "back": "4500",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Apple Watch",
+    "model": "Apple Watch 7 45mm",
+    "model_number": "A2475, A2476",
+    "short_name": "",
+    "device_type": "часы",
+    "prices": {
+      "glass": "4000",
+      "battery": "3500",
+      "back": "4500",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Apple Watch",
+    "model": "Apple Watch 8 41mm",
+    "model_number": "A2770, A2771",
+    "short_name": "",
+    "device_type": "часы",
+    "prices": {
+      "glass": "4000",
+      "battery": "3500",
+      "back": "4500",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Apple Watch",
+    "model": "Apple Watch 8 45mm",
+    "model_number": "A2772, A2773",
+    "short_name": "",
+    "device_type": "часы",
+    "prices": {
+      "glass": "4000",
+      "battery": "3500",
+      "back": "4500",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Apple Watch",
+    "model": "Apple Watch 9 41mm",
+    "model_number": "A2977, A2978",
+    "short_name": "",
+    "device_type": "часы",
+    "prices": {
+      "glass": "5000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Apple Watch",
+    "model": "Apple Watch 9 45mm",
+    "model_number": "A2975, A2976",
+    "short_name": "",
+    "device_type": "часы",
+    "prices": {
+      "glass": "5000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Apple Watch",
+    "model": "Apple Watch 10 42mm",
+    "model_number": "A2997, A2998",
+    "short_name": "",
+    "device_type": "часы",
+    "prices": {
+      "glass": "10000",
+      "battery": "6500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Apple Watch",
+    "model": "Apple Watch 10 46mm",
+    "model_number": "A2995, A2996",
+    "short_name": "",
+    "device_type": "часы",
+    "prices": {
+      "glass": "10000",
+      "battery": "6500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Apple Watch",
+    "model": "Apple Watch 11 42mm",
+    "model_number": "A3331,A3450",
+    "short_name": "",
+    "device_type": "часы",
+    "prices": {
+      "glass": "10000",
+      "battery": "6500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Apple Watch",
+    "model": "Apple Watch 11 46mm",
+    "model_number": "A3333,A3451",
+    "short_name": "",
+    "device_type": "часы",
+    "prices": {
+      "glass": "10000",
+      "battery": "6500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Apple Watch",
+    "model": "Apple Watch Ultra 49mm",
+    "model_number": "A2622,A2684,A2859",
+    "short_name": "",
+    "device_type": "часы",
+    "prices": {
+      "glass": "8000",
+      "battery": "6500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Apple Watch",
+    "model": "Apple Watch Ultra 2 49mm",
+    "model_number": "A2986,A2987",
+    "short_name": "",
+    "device_type": "часы",
+    "prices": {
+      "glass": "8000",
+      "battery": "6500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Apple Watch",
+    "model": "Apple Watch Ultra 3 49mm",
+    "model_number": "A3281,A3282",
+    "short_name": "",
+    "device_type": "часы",
+    "prices": {
+      "glass": "10000",
+      "battery": "6500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Google",
+    "model": "Pixel 4 XL",
+    "model_number": "G020P",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Google",
+    "model": "Pixel 4a 5G",
+    "model_number": "GWKK3",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Google",
+    "model": "Pixel 5",
+    "model_number": "GTT9Q",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "5000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Google",
+    "model": "Pixel 6",
+    "model_number": "GB7N6",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Google",
+    "model": "Pixel 6 pro",
+    "model_number": "GLU0G",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "6000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Google",
+    "model": "Pixel 6a",
+    "model_number": "GB17L",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Google",
+    "model": "Pixel 7",
+    "model_number": "GVU6C",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "6000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Google",
+    "model": "Pixel 7 pro",
+    "model_number": "GE2AE",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "8500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Google",
+    "model": "Pixel 7a",
+    "model_number": "GHL1X",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Google",
+    "model": "Pixel 8",
+    "model_number": "G1MNW",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "9000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Google",
+    "model": "Pixel 8 pro",
+    "model_number": "G1MNW",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "8500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Google",
+    "model": "Pixel 8a",
+    "model_number": "GKWS6",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "5000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Google",
+    "model": "Pixel 9a",
+    "model_number": "GTF7P",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "5000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Google",
+    "model": "Pixel 9",
+    "model_number": "GUR25",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "5000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Google",
+    "model": "Pixel 9 Pro",
+    "model_number": "GR83Y",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Google",
+    "model": "Pixel 9 Pro XL",
+    "model_number": "GGX8B",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "9500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Google",
+    "model": "Pixel 10",
+    "model_number": "GLBW0, GL066",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "6500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Google",
+    "model": "Pixel 10 Pro",
+    "model_number": "G4QUR, GN4F5",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "7500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Google",
+    "model": "Pixel 10 Pro XL",
+    "model_number": "GUL82",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "9500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Honor 10 Lite",
+    "model_number": "HRY-LX1T",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Honor 10X Lite",
+    "model_number": "DNN-LX9",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Honor 10i",
+    "model_number": "HRY-LX1T",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Honor 20",
+    "model_number": "YAL-L41",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Honor 20 Lite",
+    "model_number": "MAR-LX1H",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Honor 20 PRO",
+    "model_number": "YAL-L41",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Honor 200",
+    "model_number": "ELI-NX91",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Honor 200 Lite",
+    "model_number": "LLY-NX1",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Honor 20E",
+    "model_number": "MAR-LX1H",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Honor 20i",
+    "model_number": "HRY-LX1H",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Honor 20s",
+    "model_number": "MAR-LX1H",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Honor 30",
+    "model_number": "BMH-AN10",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Honor 30 Lite",
+    "model_number": "MXW-AN10",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Honor 30 Premium",
+    "model_number": "BMH-AN10",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Honor 30i",
+    "model_number": "LRA-LX1",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Honor 30s",
+    "model_number": "CDY-NX9A",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Honor 50",
+    "model_number": "NTH-NX9",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Honor 70",
+    "model_number": "FNE-NX9",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Honor 8X",
+    "model_number": "JSN-L21",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Honor 9",
+    "model_number": "STF-L09",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Honor 90",
+    "model_number": "REA-NX9",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Honor 9X",
+    "model_number": "STK-LX1",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Honor 9X Lite",
+    "model_number": "JSN-L21",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Honor Magic 5 Pro",
+    "model_number": "PGT-N19",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "6000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Honor Magic 6 Pro",
+    "model_number": "BVL-N49",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "8000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Honor Magic 7 Pro",
+    "model_number": "PTP-AN10",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "8000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Honor Magic V2",
+    "model_number": "VER-N49",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "7000",
+      "battery": "6500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Honor 200 Pro",
+    "model_number": "ELP-AN00",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Honor 400",
+    "model_number": "DNY-NX9",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Honor 400 Pro",
+    "model_number": "DNP-NX9",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "20000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Honor Pad 8 12",
+    "model_number": "HEY-W09",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Honor Pad 9 12.1",
+    "model_number": "HEY2-W09",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "4000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Honor Pad X8a",
+    "model_number": "NDL-L09",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Honor Pad X9 11.5",
+    "model_number": "ELN-L09",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Honor Pad 10 12.1\"",
+    "model_number": "HEY3-W00",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "3500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Honor View 10",
+    "model_number": "BKL-AL09",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Honor View 20",
+    "model_number": "PCT-L29",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Honor View 30 PRO",
+    "model_number": "OXF-AN10",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Honor X6",
+    "model_number": "VNE-LX1/VNE-N41",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Honor X7a",
+    "model_number": "RKY-LX1",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Honor X7b",
+    "model_number": "CLK-LX1",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Honor X8b",
+    "model_number": "LLY-LX1",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Honor X9C",
+    "model_number": "BRP-RX1",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Honor X9a",
+    "model_number": "RMO-NX1",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Honor X9b",
+    "model_number": "ALI-NX1",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei Mate 20",
+    "model_number": "HMA-L29",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei Mate 20 Pro",
+    "model_number": "LYA-L29",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "5000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei Mate 30 Lite",
+    "model_number": "SPN-AL00",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei Mate 30 Pro",
+    "model_number": "LIO-L29",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "6000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei Mate 50",
+    "model_number": "CET-LX9",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "6000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei Mate 50 Pro",
+    "model_number": "DCO-LX9",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "10000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei Mate 70 Pro",
+    "model_number": "PLR-ALOO/PLR-AL50",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "10000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei Nova 10 Pro",
+    "model_number": "GLA-LX1",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei Nova 10 SE",
+    "model_number": "BNE-LX1",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei Nova 11",
+    "model_number": "FOA-LX9",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "5000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei Nova 11 Pro",
+    "model_number": "GOA-LX9",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei Nova 11/nova 12s",
+    "model_number": "FOA-LX9",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei Nova 5T/ Honor 20 Pro",
+    "model_number": "YAL-L21",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei Nova 6",
+    "model_number": "WLZ-AL10",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei Nova 7",
+    "model_number": "CND-AN00",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei Nova 8",
+    "model_number": "ANG-LX1",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei Nova 9 SE",
+    "model_number": "JLN-LX1",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei Nova 13",
+    "model_number": "BLK-AL80",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei Nova 13 Pro",
+    "model_number": "MIS-LX9/MIA-AL00",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "8000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei Nova 14 Pro",
+    "model_number": "MIS-LX9/MIA-AL00",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "8000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei P Smart 2019",
+    "model_number": "POT-LX1",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei P Smart 2021",
+    "model_number": "PPA-LX1",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei P Smart Z Honor 9X",
+    "model_number": "STK-LX1",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei P20 Lite",
+    "model_number": "ANE-LX1",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei P20 Pro",
+    "model_number": "CLT-L29",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei P30",
+    "model_number": "ELE-L29",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei P30 Lite",
+    "model_number": "MAR-LX1M",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei P30 Pro",
+    "model_number": "VOG-L29",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei P40",
+    "model_number": "ANA-NX9",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei P40 Lite",
+    "model_number": "JNY-LX1",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei P40 Lite E",
+    "model_number": "ART-L29",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei P40 Pro",
+    "model_number": "ELS-NX9",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "8000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei P50",
+    "model_number": "ABR-LX9",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "5000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei P50 Pro",
+    "model_number": "JAD-LX9",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei P60",
+    "model_number": "LNA-LX9",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "7500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei P60 Pro",
+    "model_number": "MNA-LX9",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "7500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei Pura 70",
+    "model_number": "ADY-LX9/ADY-AL00",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "10000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei Pura 70 Pro",
+    "model_number": "HBN-LX9",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "10000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei Pura 70 ULTRA",
+    "model_number": "HBP-LX9/HBP-AL00",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "10000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei Pura 80",
+    "model_number": "HED-LX9",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "12000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei Y8p",
+    "model_number": "AQM-LX1",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei Y9s",
+    "model_number": "STK-LX1",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei MatePad SE",
+    "model_number": "AGS5-W09/AGS5-W00/AGS5-W01",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei Matepad 11",
+    "model_number": "GOT-W29",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei Matepad 11 2021",
+    "model_number": "DBY-W09",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei Matepad 11 2023",
+    "model_number": "DBR-W10",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei Matepad 11\"",
+    "model_number": "DBY-L09",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei Matepad 11.5",
+    "model_number": "BTK-W09/BTK-AL09/BTKR-W09",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "3200",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei Matepad 12.2 2025",
+    "model_number": "MRDI-W09",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "8000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei Matepad 4 10.4",
+    "model_number": "bah4-l09",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei Matepad M6 10.4\"",
+    "model_number": "BAH4-L09",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei Matepad SE 11\"",
+    "model_number": "AGS6-W09",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei Matepad SE 11\"",
+    "model_number": "AGS6-L09",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei Matepad 10.4\"",
+    "model_number": "BAH3-L09/BAH3-W09/BAH4-L09/BAH4-W09",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei MatePad 12X 12\" 2024",
+    "model_number": "BKY-W09",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "4000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei MatePad Pro 11 2022",
+    "model_number": "GOT-W09/GOT-AL09",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "9000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei Mediapad 11.5 S 2024",
+    "model_number": "TGR-W09",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "6000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei Mediapad M5 Lite 10\"",
+    "model_number": "BAH2-W19",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "3500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei Mediapad M6 Lite 10\"",
+    "model_number": "SCM-W09",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "3500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei Mediapad T3 10\"",
+    "model_number": "AGS-L09",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "3500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Huawei",
+    "model": "Huawei Pad X8 10.1\"",
+    "model_number": "AGM3-AL09HN/AGM3-W09HN",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "INFINIX",
+    "model": "INFINIX HOT 11S NFC",
+    "model_number": "X6812B",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "INFINIX",
+    "model": "INFINIX Hot 10 Play",
+    "model_number": "X688B",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "INFINIX",
+    "model": "INFINIX Hot 11",
+    "model_number": "X689F",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "INFINIX",
+    "model": "INFINIX Hot 11s",
+    "model_number": "X6812b",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "INFINIX",
+    "model": "INFINIX Hot 12 Pro",
+    "model_number": "X668C",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "INFINIX",
+    "model": "INFINIX Hot 30",
+    "model_number": "X6831",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "INFINIX",
+    "model": "INFINIX Hot 30i",
+    "model_number": "x669d",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "INFINIX",
+    "model": "INFINIX Hot 30 Play",
+    "model_number": "X6835B",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "INFINIX",
+    "model": "INFINIX Note 11",
+    "model_number": "X663B/X663D/X633B/X676B/X676C/X6716",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "INFINIX",
+    "model": "INFINIX Note 12",
+    "model_number": "X663B/X663D/X633B/X676B/X676C/X6716",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "INFINIX",
+    "model": "INFINIX Note 12 Pro",
+    "model_number": "X663B/X663D/X633B/X676B/X676C/X6716",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "INFINIX",
+    "model": "INFINIX Note 12 (2023)",
+    "model_number": "X663B/X663D/X633B/X676B/X676C/X6716",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "INFINIX",
+    "model": "INFINIX Note 30i",
+    "model_number": "X663B/X663D/X633B/X676B/X676C/X6716",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "INFINIX",
+    "model": "INFINIX Note 30 Pro",
+    "model_number": "X678B",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "INFINIX",
+    "model": "INFINIX Note 30 4G",
+    "model_number": "X6833b",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "INFINIX",
+    "model": "INFINIX Note 30i",
+    "model_number": "X6716",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "INFINIX",
+    "model": "INFINIX Note 40",
+    "model_number": "X6853",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "INFINIX",
+    "model": "INFINIX Note 40 Pro",
+    "model_number": "X6850",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "INFINIX",
+    "model": "INFINIX Note 50 4G",
+    "model_number": "X6858",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "INFINIX",
+    "model": "INFINIX Note 50 Pro 4G",
+    "model_number": "X6855",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "INFINIX",
+    "model": "INFINIX Note 50 Pro Plus 5G",
+    "model_number": "X6856",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "INFINIX",
+    "model": "INFINIX Zero 30 4G",
+    "model_number": "X6731B, X6731",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "INFINIX",
+    "model": "INFINIX Zero 30 5G",
+    "model_number": "X6731B, X6731",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "INFINIX",
+    "model": "INFINIX Zero 40 5G",
+    "model_number": "X6861",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "INFINIX",
+    "model": "INFINIX Smart 6 Plus",
+    "model_number": "X6823C",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "OnePlus",
+    "model": "Oneplus 8 pro",
+    "model_number": "IN2020",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "6000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "OnePlus",
+    "model": "Oneplus 9",
+    "model_number": "LE2110",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "5000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "OnePlus",
+    "model": "Oneplus 9 pro",
+    "model_number": "LE2120",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "6000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "OnePlus",
+    "model": "Oneplus 9R",
+    "model_number": "LE2100",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "OnePlus",
+    "model": "Oneplus 10 pro",
+    "model_number": "NE2213",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "7000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "OnePlus",
+    "model": "Oneplus 12R",
+    "model_number": "CPH2585",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "5000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "OnePlus",
+    "model": "Oneplus 13R",
+    "model_number": "CPH2645",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "6000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "OnePlus",
+    "model": "Oneplus 12",
+    "model_number": "CPH2581",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "5000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "OnePlus",
+    "model": "Oneplus 13",
+    "model_number": "CPH2653",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "8000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "OnePlus",
+    "model": "Oneplus 15",
+    "model_number": "CPH2747",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "6000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "OnePlus",
+    "model": "OnePlus Nord 3 5G",
+    "model_number": "CPH2493",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Oppo",
+    "model": "OPPO A53",
+    "model_number": "CPH2127",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Oppo",
+    "model": "OPPO A54",
+    "model_number": "CPH2239",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Oppo",
+    "model": "OPPO A78",
+    "model_number": "CPH2565",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Oppo",
+    "model": "OPPO Reno 3",
+    "model_number": "CPH2043",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Oppo",
+    "model": "OPPO Reno 3 Pro",
+    "model_number": "CPH2009",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Oppo",
+    "model": "OPPO Reno 4 Lite",
+    "model_number": "CPH2125",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Oppo",
+    "model": "OPPO Reno 4G",
+    "model_number": "CPH2235",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Oppo",
+    "model": "OPPO Reno 5 Lite",
+    "model_number": "CPH2205",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Oppo",
+    "model": "OPPO Reno 8t",
+    "model_number": "CPH2481",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Realme",
+    "model": "Realme 10 4G",
+    "model_number": "RMX3521",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Realme",
+    "model": "Realme 10 4G",
+    "model_number": "RMX3630",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Realme",
+    "model": "Realme 10 5G",
+    "model_number": "RMX3615",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Realme",
+    "model": "Realme 11 4G",
+    "model_number": "RMX3363",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Realme",
+    "model": "Realme 11 5G",
+    "model_number": "RMX3636",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Realme",
+    "model": "Realme 11 Pro Plus",
+    "model_number": "RMX3741",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Realme",
+    "model": "Realme 11 Pro",
+    "model_number": "RMX3741",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Realme",
+    "model": "Realme 12 4G",
+    "model_number": "RMX3871",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Realme",
+    "model": "Realme 12 Plus",
+    "model_number": "RMX3867",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Realme",
+    "model": "Realme 12 Pro",
+    "model_number": "RMX3842",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Realme",
+    "model": "Realme 12 Pro Plus 5G",
+    "model_number": "RMX3840",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Realme",
+    "model": "Realme 14 PRO",
+    "model_number": "RMX5056",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Realme",
+    "model": "Realme 14 5G",
+    "model_number": "RMX5070",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Realme",
+    "model": "Realme 14T 5G",
+    "model_number": "RMX5078",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Realme",
+    "model": "Realme 15 PRO",
+    "model_number": "RMX5101",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "5000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Realme",
+    "model": "Realme 7 pro",
+    "model_number": "RMX2170",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Realme",
+    "model": "Realme 8 Pro",
+    "model_number": "RMX3081",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Realme",
+    "model": "Realme 8i",
+    "model_number": "RMX3151",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Realme",
+    "model": "Realme 9 4G",
+    "model_number": "RMX3521,RMX3630",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Realme",
+    "model": "Realme 9 5g",
+    "model_number": "RMX3474",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Realme",
+    "model": "Realme 9 Pro",
+    "model_number": "RMX3742",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Realme",
+    "model": "Realme 9 Pro Plus",
+    "model_number": "RMX3393",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Realme",
+    "model": "Realme 9i",
+    "model_number": "RMX3491",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Realme",
+    "model": "Realme GT",
+    "model_number": "RMX2202",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Realme",
+    "model": "Realme GT Master Edition",
+    "model_number": "RMX2202",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Realme",
+    "model": "Realme GT Neo 2 5G",
+    "model_number": "RMX3370",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Realme",
+    "model": "Realme GT Neo 5",
+    "model_number": "RMX3700",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "5000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Realme",
+    "model": "Realme GT 6 SE",
+    "model_number": "RMX3853",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Realme",
+    "model": "Realme GT NEO 6 5G",
+    "model_number": "RMX3852",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Realme",
+    "model": "Realme GT 6",
+    "model_number": "RMX3851",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Realme",
+    "model": "Realme GT 6T",
+    "model_number": "RMX3853",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Realme",
+    "model": "Realme GT 7 PRO",
+    "model_number": "RMX5011",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Realme",
+    "model": "Realme GT 8 PRO",
+    "model_number": "RMX5210",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "5000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Realme",
+    "model": "Realme Neo 5",
+    "model_number": "RMX3706",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Realme",
+    "model": "Realme c31",
+    "model_number": "RMX3501",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Realme",
+    "model": "Realme c30",
+    "model_number": "RMX3581",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Realme",
+    "model": "Realme narzo 50",
+    "model_number": "RMX3286",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Realme",
+    "model": "Realme С11",
+    "model_number": "RMX3231",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Realme",
+    "model": "Realme С21-Y",
+    "model_number": "RMX3263",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A02",
+    "model_number": "SM-A022",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A02s",
+    "model_number": "SM-A025",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A03",
+    "model_number": "SM-A035",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A03s",
+    "model_number": "SM-A037",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A04",
+    "model_number": "SM-A045",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A10",
+    "model_number": "SM-A105",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A11",
+    "model_number": "SM-A115",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A12",
+    "model_number": "SM-A125",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A14",
+    "model_number": "SM-A145",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A15",
+    "model_number": "SM-A155",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A16",
+    "model_number": "SM-A165",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A17",
+    "model_number": "SM-A175",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A20",
+    "model_number": "SM-A205",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A20s",
+    "model_number": "SM-A207",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A21",
+    "model_number": "SM-A215",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A22",
+    "model_number": "SM-A225",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A22s",
+    "model_number": "SM-A226",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A24",
+    "model_number": "SM-A245",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A25",
+    "model_number": "SM-A256",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A3 2017",
+    "model_number": "SM-A320",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A30",
+    "model_number": "SM-A305",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A30s",
+    "model_number": "SM-A307",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A31",
+    "model_number": "SM-A315",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A32",
+    "model_number": "SM-A325",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A33",
+    "model_number": "SM-A336",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A34",
+    "model_number": "SM-A346",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A35",
+    "model_number": "SM-A356",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A36",
+    "model_number": "SM-A366",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A40",
+    "model_number": "SM-A405",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A41",
+    "model_number": "SM-A415",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A42",
+    "model_number": "SM-A425",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A42 5G",
+    "model_number": "SM-A426U",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A5 2017",
+    "model_number": "SM-A520",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A50",
+    "model_number": "SM-A505",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A51",
+    "model_number": "SM-A515",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A52",
+    "model_number": "SM-A525",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A53",
+    "model_number": "SM-A526",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A54",
+    "model_number": "SM-A546",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A55",
+    "model_number": "SM-A556",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A56",
+    "model_number": "SM-A566",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A57",
+    "model_number": "SM-A576",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A6",
+    "model_number": "SM-A600",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A6 Plus",
+    "model_number": "SM-A605",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A7 2017",
+    "model_number": "SM-A720",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A7 2018",
+    "model_number": "SM-A750",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A70",
+    "model_number": "SM-A705",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A71",
+    "model_number": "SM-A715",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A72",
+    "model_number": "SM-A725",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A73",
+    "model_number": "SM-A726",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A8",
+    "model_number": "SM-A530",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A8 Plus",
+    "model_number": "SM-A730",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A80",
+    "model_number": "SM-A805",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy A9",
+    "model_number": "SM-A920",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy J2 2018",
+    "model_number": "SM-J250",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy J3 2017",
+    "model_number": "SM-J330",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy J4",
+    "model_number": "SM-J400",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy J4 Plus",
+    "model_number": "SM-J415",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy J5 2017",
+    "model_number": "SM-J530",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy J6",
+    "model_number": "SM-J600",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy J6 Plus",
+    "model_number": "SM-J610",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy J7 2017",
+    "model_number": "SM-J730",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy J8",
+    "model_number": "SM-J810",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy M10",
+    "model_number": "SM-M105",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy M11",
+    "model_number": "SM-M115",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy M12",
+    "model_number": "SM-M127",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy M20",
+    "model_number": "SM-M205",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy M20s",
+    "model_number": "SM-M207",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy M21",
+    "model_number": "SM-M215",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy M22",
+    "model_number": "SM-M225",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy M23",
+    "model_number": "SM-M326",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy M30",
+    "model_number": "SM-M305",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy M30s",
+    "model_number": "SM-M307",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy M31",
+    "model_number": "SM-M315",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy M31s",
+    "model_number": "SM-M317",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy M32",
+    "model_number": "SM-M325",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy M33",
+    "model_number": "SM-M336",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy M51",
+    "model_number": "SM-M515",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy M52",
+    "model_number": "SM-M525",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy M53",
+    "model_number": "SM-M536",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy M55",
+    "model_number": "SM-M556",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Note 10",
+    "model_number": "SM-N970",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "6000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Note 10 Lite",
+    "model_number": "SM-N770",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Note 10 Plus",
+    "model_number": "SM-N975",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "6500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Note 10.1",
+    "model_number": "SM-P600",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Note 20",
+    "model_number": "SM-N980",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "5500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Note 20 Ultra",
+    "model_number": "SM-N985",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "6500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Note 3",
+    "model_number": "SM-N900",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Note 4",
+    "model_number": "SM-N910",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Note 5",
+    "model_number": "SM-N920",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Note 8",
+    "model_number": "SM-N950",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Note 9",
+    "model_number": "SM-N960",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "5500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S10",
+    "model_number": "SM-G973",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "5000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S10 Plus",
+    "model_number": "SM-G975",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "5500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S10E",
+    "model_number": "SM-G970",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S20",
+    "model_number": "SM-G980",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "5500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S20 Plus",
+    "model_number": "SM-G985",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "6000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S20 Ultra",
+    "model_number": "SM-G988",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "6500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S20FE",
+    "model_number": "SM-G780/SM-G781",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S21",
+    "model_number": "SM-G991",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S21 Plus",
+    "model_number": "SM-G996",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "5500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S21 Ultra",
+    "model_number": "SM-G998",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "7500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S21FE",
+    "model_number": "SM-G990",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S22",
+    "model_number": "SM-S901",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "5000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S22 Plus",
+    "model_number": "SM-S906",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "5500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S22 Ultra",
+    "model_number": "SM-S908",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "8500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S23",
+    "model_number": "SM-S911",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "5500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S23 FE",
+    "model_number": "SM-S711",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S23 Plus",
+    "model_number": "SM-S916",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "6500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S23 Ultra",
+    "model_number": "SM-S918",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "8500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S24",
+    "model_number": "SM-S921",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "5000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S24 FE",
+    "model_number": "SM-S721",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S24 Plus",
+    "model_number": "SM-S926",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "6000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S24 Ultra",
+    "model_number": "SM-S928",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "8500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S25",
+    "model_number": "SM-S931",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "5000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S25 Plus",
+    "model_number": "SM-S936",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "6000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S25 Ultra",
+    "model_number": "SM-S938",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "8500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S6",
+    "model_number": "SM-G920",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S6 EDGE",
+    "model_number": "SM-G925",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S7",
+    "model_number": "SM-G930",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S8",
+    "model_number": "SM-G950",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S8 Plus",
+    "model_number": "SM-G955",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S9",
+    "model_number": "SM-G960",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy S9 Plus",
+    "model_number": "SM-G965",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Tab A 10.0",
+    "model_number": "SM-T585",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "4500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Tab A 10.1 2019",
+    "model_number": "SM-T510/SM-T515",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Tab A 9.7",
+    "model_number": "SM-T555",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "3500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Tab A7 Lite",
+    "model_number": "SM-T225",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "2500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Tab A7",
+    "model_number": "SM-T505",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Tab A7 Lite",
+    "model_number": "SM-T220",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "2500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Tab A8",
+    "model_number": "SM-T385",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "2500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Tab A8 10.5",
+    "model_number": "SM-X200",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Tab A8 2018",
+    "model_number": "SM-T290/SM-T295",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Tab A9+ Plus",
+    "model_number": "Sm-X210/SM-X216B",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Tab E 9.6",
+    "model_number": "SM-T561",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "4500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Tab S 10.5",
+    "model_number": "SM-T805",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "3500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Tab S3 9.7",
+    "model_number": "SM-T815/SM-T820/SM-T825/SM-T819",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "4500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Tab S5E 10.5",
+    "model_number": "SM-T725/SM-T720",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "7000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Tab S6 LTE 10.5",
+    "model_number": "SM-T865/SM-T860",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "8000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Tab S6 Lite",
+    "model_number": "SM-P610/SM-P615",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Tab S7 Plus 12.4",
+    "model_number": "SM-T970/SM-T975",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "12000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Tab S7 11\" (2020)",
+    "model_number": "SM-T870/SM-T875",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Tab S7FE 12.4",
+    "model_number": "SM-T730/SM-T733/SM-T735",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "4000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Tab S8",
+    "model_number": "SM-X706",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Tab S8 Plus",
+    "model_number": "SM-X800/SM-X806",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "20000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Tab S9 FE Plus",
+    "model_number": "SM-X610/SM-X616",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "4000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Tab S10 Lite",
+    "model_number": "BSM-X400/BSM-X406",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "5000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Z Fold 1",
+    "model_number": "SM-F900",
+    "short_name": "",
+    "device_type": "складной",
+    "prices": {
+      "glass": "4000",
+      "battery": "7000",
+      "back": "3000",
+      "hinge": "10000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Z Fold 2",
+    "model_number": "SM-F916",
+    "short_name": "",
+    "device_type": "складной",
+    "prices": {
+      "glass": "4000",
+      "battery": "7000",
+      "back": "3000",
+      "hinge": "10000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Z Fold 3",
+    "model_number": "SM-F926",
+    "short_name": "",
+    "device_type": "складной",
+    "prices": {
+      "glass": "4000",
+      "battery": "7000",
+      "back": "3000",
+      "hinge": "13000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Z Fold 4",
+    "model_number": "SM-F936",
+    "short_name": "",
+    "device_type": "складной",
+    "prices": {
+      "glass": "4000",
+      "battery": "7000",
+      "back": "3000",
+      "hinge": "13000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Z Fold 5",
+    "model_number": "SM-F946",
+    "short_name": "",
+    "device_type": "складной",
+    "prices": {
+      "glass": "4000",
+      "battery": "7000",
+      "back": "3000",
+      "hinge": "20000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Z Fold 6",
+    "model_number": "SM-F956",
+    "short_name": "",
+    "device_type": "складной",
+    "prices": {
+      "glass": "4000",
+      "battery": "7000",
+      "back": "3000",
+      "hinge": "25000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Z Fold 7",
+    "model_number": "SM-F966",
+    "short_name": "",
+    "device_type": "складной",
+    "prices": {
+      "glass": "4000",
+      "battery": "7000",
+      "back": "3000",
+      "hinge": "25000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Z Flip 3",
+    "model_number": "SM-F711",
+    "short_name": "",
+    "device_type": "складной",
+    "prices": {
+      "glass": "8000",
+      "battery": "6500",
+      "back": "3000",
+      "hinge": "8000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Z Flip 4",
+    "model_number": "SM-F721",
+    "short_name": "",
+    "device_type": "складной",
+    "prices": {
+      "glass": "10000",
+      "battery": "6500",
+      "back": "3000",
+      "hinge": "10000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Z Flip 5",
+    "model_number": "SM-F731",
+    "short_name": "",
+    "device_type": "складной",
+    "prices": {
+      "glass": "10000",
+      "battery": "6500",
+      "back": "3000",
+      "hinge": "10000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Z Flip 6",
+    "model_number": "SM-F741",
+    "short_name": "",
+    "device_type": "складной",
+    "prices": {
+      "glass": "10000",
+      "battery": "6500",
+      "back": "3000",
+      "hinge": "12000"
+    }
+  },
+  {
+    "brand": "Samsung",
+    "model": "Samsung Galaxy Z Flip 7",
+    "model_number": "SM-F766",
+    "short_name": "",
+    "device_type": "складной",
+    "prices": {
+      "glass": "13000",
+      "battery": "6500",
+      "back": "3000",
+      "hinge": "12000"
+    }
+  },
+  {
+    "brand": "Tecno",
+    "model": "TECNO Camon 20 Pro Plus",
+    "model_number": "KJ7",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Tecno",
+    "model": "TECNO Camon 30s",
+    "model_number": "CLA5",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Tecno",
+    "model": "TECNO Camon 30s Pro",
+    "model_number": "CLA6",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Tecno",
+    "model": "TECNO Camon 20 pro",
+    "model_number": "CK8n",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Tecno",
+    "model": "TECNO Camon 40 pro 5G",
+    "model_number": "CM6",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Tecno",
+    "model": "TECNO Camon 40 pro",
+    "model_number": "CM7",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Tecno",
+    "model": "TECNO Camon 40 4G",
+    "model_number": "CM5",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Tecno",
+    "model": "TECNO Pova 4 Pro",
+    "model_number": "LG8n",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Tecno",
+    "model": "TECNO Pova 5",
+    "model_number": "LH7n",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Tecno",
+    "model": "TECNO Pova 6",
+    "model_number": "LI7",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Tecno",
+    "model": "TECNO Pova Neo 2",
+    "model_number": "LG6n",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Tecno",
+    "model": "TECNO Pova Neo 3",
+    "model_number": "LH6n",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Tecno",
+    "model": "TECNO Spark 10 Pro",
+    "model_number": "KI7",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Tecno",
+    "model": "TECNO Spark 9 Pro",
+    "model_number": "KH7n",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Tecno",
+    "model": "TECNO SPARK 40 Pro PLUS",
+    "model_number": "KM7",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "5000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Tecno",
+    "model": "TECNO Pova 5",
+    "model_number": "LH7n",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Tecno",
+    "model": "TECNO Pova 5 Pro 5G",
+    "model_number": "LH8n",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Vivo",
+    "model": "VIVO Y17",
+    "model_number": "1902",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Vivo",
+    "model": "VIVO V29",
+    "model_number": "V2250",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Vivo",
+    "model": "VIVO V30 Lite 4G",
+    "model_number": "V2342",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "POCO",
+    "model": "POCO F1",
+    "model_number": "M1805E10A",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "POCO",
+    "model": "POCO F2 pro",
+    "model_number": "M2004J11G",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "POCO",
+    "model": "POCO F3",
+    "model_number": "M2012K11AG",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "POCO",
+    "model": "POCO F5",
+    "model_number": "23049PCD8G",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "POCO",
+    "model": "POCO F4 GT",
+    "model_number": "21121210G",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "POCO",
+    "model": "POCO F5 Pro",
+    "model_number": "23013PC75G",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "POCO",
+    "model": "POCO F6 PRO",
+    "model_number": "23113RKC6G",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "POCO",
+    "model": "POCO F7",
+    "model_number": "25053PC47G,25053PC47",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "POCO",
+    "model": "POCO F7 PRO",
+    "model_number": "24117RK2CG",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "6000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "POCO",
+    "model": "POCO F7 Ultra",
+    "model_number": "24122RKC7G",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "6000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "POCO",
+    "model": "POCO M3",
+    "model_number": "M2010J19CG",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "POCO",
+    "model": "POCO M5",
+    "model_number": "22071219CG",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "POCO",
+    "model": "POCO M3 Pro",
+    "model_number": "M2103K19PG",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "POCO",
+    "model": "POCO M4 Pro 4G",
+    "model_number": "2201117PG",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "POCO",
+    "model": "POCO M4 Pro 5G",
+    "model_number": "21091116AG",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "POCO",
+    "model": "POCO M5s",
+    "model_number": "2207117BPG",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "POCO",
+    "model": "POCO M6 PRO 4G",
+    "model_number": "2312FPCA6G",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "POCO",
+    "model": "POCO M6 Pro 5G",
+    "model_number": "MZB0EQKIN",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "POCO",
+    "model": "POCO M8 Pro",
+    "model_number": "2510EPC8BG",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "POCO",
+    "model": "POCO X3",
+    "model_number": "M2007J20CG",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "POCO",
+    "model": "POCO X3 PRO",
+    "model_number": "M2102J20SG",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "POCO",
+    "model": "POCO X4 GT",
+    "model_number": "22041216G",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "POCO",
+    "model": "POCO X4 PRO 5G",
+    "model_number": "2201116PG",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "POCO",
+    "model": "POCO X5 5G",
+    "model_number": "22111317PG",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "POCO",
+    "model": "POCO X5 PRO 5G",
+    "model_number": "22101320G",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "POCO",
+    "model": "POCO X6 5G",
+    "model_number": "23122FPCD1G",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "POCO",
+    "model": "POCO X6 Pro 5G",
+    "model_number": "2311DRK48G",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "POCO",
+    "model": "POCO X7 Pro",
+    "model_number": "2412DPCOAG",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "POCO",
+    "model": "POCO C40",
+    "model_number": "220333QPG",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "POCO",
+    "model": "POCO C61",
+    "model_number": "MZB0IL9RU",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "5000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "POCO",
+    "model": "POCO C65",
+    "model_number": "2310FPCA4G",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "POCO",
+    "model": "POCO C51",
+    "model_number": "2302EPCC4I",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "POCO",
+    "model": "POCO C50",
+    "model_number": "MZB0CT6IN",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "POCO",
+    "model": "POCO C61",
+    "model_number": "23129RN51X",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi 10",
+    "model_number": "21061119DG",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi 10a",
+    "model_number": "220233L2G",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi 10x",
+    "model_number": "M2004J7AC",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi 12",
+    "model_number": "23053RN02Y",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi 12c",
+    "model_number": "22120RN86C",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi 13C",
+    "model_number": "23124RN87C",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi 5 plus",
+    "model_number": "MEG7",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi 8",
+    "model_number": "M1908C3IG",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "13500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi 8a",
+    "model_number": "M1908C3KG",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi 9",
+    "model_number": "M2004J19AG",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi 9a",
+    "model_number": "M2006C3LG",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi 9c",
+    "model_number": "M2006C3MNG",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi 9t",
+    "model_number": "M2010J19SG",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi A1 Plus",
+    "model_number": "220733SFG",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi A2 Plus",
+    "model_number": "23028RNCAG",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi A3",
+    "model_number": "23129RN51X",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi K20/K20 Pro",
+    "model_number": "M1903F10A",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi K30S",
+    "model_number": "M2007J3SC",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 10 4G",
+    "model_number": "M2101K7AG",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 10 Pro",
+    "model_number": "M2101K6G",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 10T",
+    "model_number": "M2103K19Y",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 10s 4g",
+    "model_number": "M2101K7BG",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2500",
+      "battery": "3000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 11 4G",
+    "model_number": "2201117TG",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 11 5G",
+    "model_number": "21091116AC",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 11 Pro 4G",
+    "model_number": "2201116TG",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 11 Pro 5G",
+    "model_number": "2201116SG",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 11 Pro Plus 5G",
+    "model_number": "21091116UG",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 11s 4G",
+    "model_number": "2201117SG",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 12",
+    "model_number": "23021RAA2Y",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 12 Pro",
+    "model_number": "22101320C",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 12 Turbo (5G) (2023)",
+    "model_number": "23049PCD8G",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 12 Pro Plus",
+    "model_number": "22101316UG",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 12S",
+    "model_number": "2303CRA44A",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 13 4G",
+    "model_number": "23124RA7EO",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 13 5G",
+    "model_number": "2312DRAABC",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 13 Pro",
+    "model_number": "23117RA68G",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 13 Pro 4G",
+    "model_number": "23117RA68G",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 13 Pro 5G",
+    "model_number": "2312CRAD3C",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 13 Pro Plus 5G",
+    "model_number": "23090RA98C",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 13 Pro Plus 4G",
+    "model_number": "23090RA98G",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 14 4G",
+    "model_number": "24117RN76O",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 14 Pro 4G",
+    "model_number": "24116RACCG",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 14 Pro 5G",
+    "model_number": "24090RA29G",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 15 Pro 4G",
+    "model_number": "25100RA69G",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 15 Pro 5G",
+    "model_number": "25060RABDG",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 15 Pro 5G",
+    "model_number": "25080RABDG",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 7",
+    "model_number": "M1901F7G",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 7 Pro",
+    "model_number": "M1901F7BE",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 7s",
+    "model_number": "M1901F7I",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 8",
+    "model_number": "M1908C3JG",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 8 Pro",
+    "model_number": "M1906G7G",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 8T",
+    "model_number": "M1908C3XG",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 9",
+    "model_number": "M2003J15SG",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 9 Pro",
+    "model_number": "M2003J6B2G",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 9s",
+    "model_number": "M2003J6A1G",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Pad SE 11\"",
+    "model_number": "23073RPBFG",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Pad SE 10.61\"",
+    "model_number": "22081283G",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Pad SE 8.7\"",
+    "model_number": "24075RP89G",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "2500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Pad PRO 5G",
+    "model_number": "24074RPD2G",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "4000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi 12",
+    "model_number": "2201123G",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi 12 Lite",
+    "model_number": "2203129G",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi 12 Pro",
+    "model_number": "2201122g",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "5000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi 12T",
+    "model_number": "22071212AG",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi 12T Pro",
+    "model_number": "2081212UG",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi 12X",
+    "model_number": "2112123G",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi 12s",
+    "model_number": "2206123SC",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "5000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi 12s Pro",
+    "model_number": "2201122g",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "5000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi 12s Ultra",
+    "model_number": "2201122g",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "5000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi 13",
+    "model_number": "2211133G",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "5000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi 13 Lite",
+    "model_number": "2210129SG",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi 13 Pro",
+    "model_number": "2312CRAD3C",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "6000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi 13 Pro",
+    "model_number": "2210132G",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi 13 Ultra",
+    "model_number": "2304FPN6DC",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "7000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi 13T Pro",
+    "model_number": "23078RKD5C",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi 14",
+    "model_number": "23127PN0C",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi 14T",
+    "model_number": "2406APNFAG",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi 15T Pro",
+    "model_number": "2506BPN68G",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi 14 Pro",
+    "model_number": "24116RACCG",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "5000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi 14 Ultra",
+    "model_number": "24030PN60G",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "7000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi 15 Pro / Xiaomi 15 Ultra",
+    "model_number": "24101PNB7C",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "7500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi 15 Ultra",
+    "model_number": "24101PNB7C",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "7500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi MI 11 LITE 5G",
+    "model_number": "M2101K9G",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi MI 11T",
+    "model_number": "21081111RG",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi MI 11T Pro",
+    "model_number": "2107113SG",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi Mi 10",
+    "model_number": "M2001J2G",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi Mi 10 Lite",
+    "model_number": "M2002J9G",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi Mi 10T",
+    "model_number": "M2007J3SY",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi Mi 10T Lite",
+    "model_number": "M2007J17G",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi Mi 10T Pro",
+    "model_number": "M2007J3SG",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi Mi 11",
+    "model_number": "M2011K2G",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "7000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi Mi 11 Lite 5G NE",
+    "model_number": "2109119DG",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi Mi 11 Ultra",
+    "model_number": "M2102K1G",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "7000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi Mi 8 Lite",
+    "model_number": "M1808D2TG",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi Mi 8 SE",
+    "model_number": "M1805E2A",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi Mi 9 SE",
+    "model_number": "M1903F2G",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi Mi 9 lite",
+    "model_number": "M1904F3BG",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi Mi 9t/Mi 9t Pro",
+    "model_number": "M1903F10A",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi Mi Mix 2",
+    "model_number": "MDE5",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi Mi Mix 2S",
+    "model_number": "M1803D5XA",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi Mi Note 10",
+    "model_number": "M1910F4G",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi Mi Note 10 Lite",
+    "model_number": "M2002F4LG",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi Mi Note 10 Pro",
+    "model_number": "M1910F4S",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi Pad 5",
+    "model_number": "M2105K81AC",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi Pad 5 11\"",
+    "model_number": "21051182G",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi Pad 5 Pro 11\"",
+    "model_number": "21051182G",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi Pad 6 11''",
+    "model_number": "23043RP34G",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi Pad 6 Pro 11''",
+    "model_number": "23046RP50C",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi Pad 6s Pro 12.4",
+    "model_number": "24018RPACC, 24018RPACG",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "5000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi Pad 7 11.2\"",
+    "model_number": "2410CRP4CG/24091RPADG",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi Pad 7 Pro 11.2\"",
+    "model_number": "2410CRP4CG/24091RPADG",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi mi 8",
+    "model_number": "M1803E1A",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Xiaomi mi 9",
+    "model_number": "M1902F1G",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "2500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Lenovo",
+    "model": "Lenovo Tab P11",
+    "model_number": "TB-J606L",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Lenovo",
+    "model": "Lenovo Tab P11 Pro",
+    "model_number": "TB-J706",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "7500",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Lenovo",
+    "model": "Lenovo XiaoXin Pad 2022",
+    "model_number": "TB-128FU",
+    "short_name": "",
+    "device_type": "планшет",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Nothing Phone",
+    "model": "Nothing Phone",
+    "model_number": "A063",
+    "short_name": "",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "3000",
+      "battery": "4500",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Asus",
+    "model": "Asus Rog Phone 5",
+    "model_number": "ZS673KS",
+    "short_name": "Rog Phone 5",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4000",
+      "battery": "6000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Asus",
+    "model": "Asus Rog Phone 5s",
+    "model_number": "ZS676KS",
+    "short_name": "Rog Phone 5s",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4000",
+      "battery": "6000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Asus",
+    "model": "Asus Rog Phone 6",
+    "model_number": "AI2201",
+    "short_name": "Rog Phone 6",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4000",
+      "battery": "6000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Asus",
+    "model": "Asus Rog Phone 7",
+    "model_number": "AI2205",
+    "short_name": "Rog Phone 7",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "4000",
+      "battery": "6000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Asus",
+    "model": "Asus Rog Phone 8",
+    "model_number": "AI2401",
+    "short_name": "Rog Phone 8",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "10000",
+      "battery": "12000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  },
+  {
+    "brand": "Asus",
+    "model": "Asus Rog Phone 8 Pro",
+    "model_number": "AI2401",
+    "short_name": "Rog Phone 8 Pro",
+    "device_type": "телефон",
+    "prices": {
+      "glass": "10000",
+      "battery": "12000",
+      "back": "3000",
+      "hinge": "3000"
+    }
+  }
+]

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Прайс-лист С Почином</title>
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<style>
+:root {
+    --bg: #ffffff; --card: #f5f5f5; --text: #1a1a1a; --sub: #666;
+    --accent: #2ea6ff; --border: #e0e0e0; --green: #34c759;
+    --input-bg: #f0f0f0; --shadow: rgba(0,0,0,0.08);
+}
+.dark {
+    --bg: #1a1a2e; --card: #16213e; --text: #e0e0e0; --sub: #999;
+    --accent: #2ea6ff; --border: #2a2a4a; --green: #30d158;
+    --input-bg: #0f3460; --shadow: rgba(0,0,0,0.3);
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: var(--bg); color: var(--text);
+    padding: 12px; min-height: 100vh;
+}
+.header { text-align:center; padding: 16px 0 12px; }
+.header h1 { font-size: 20px; font-weight: 700; }
+.header p { font-size: 13px; color: var(--sub); margin-top: 4px; }
+.controls { display:flex; flex-direction:column; gap:8px; margin-bottom:12px; }
+.search-box {
+    width:100%; padding:12px 16px; border:1px solid var(--border);
+    border-radius:12px; font-size:15px; background:var(--input-bg);
+    color:var(--text); outline:none;
+}
+.search-box:focus { border-color: var(--accent); }
+.filters { display:flex; gap:8px; }
+.filter-select {
+    flex:1; padding:10px 12px; border:1px solid var(--border);
+    border-radius:10px; font-size:14px; background:var(--input-bg);
+    color:var(--text); outline:none; appearance:none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23666' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat; background-position: right 12px center;
+}
+.stats { font-size:12px; color:var(--sub); margin-bottom:8px; padding:0 4px; }
+.cards { display:flex; flex-direction:column; gap:10px; }
+.card {
+    background:var(--card); border-radius:14px; padding:14px;
+    box-shadow: 0 2px 8px var(--shadow); border:1px solid var(--border);
+}
+.card-header { display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:10px; }
+.card-brand { font-size:11px; color:var(--accent); font-weight:600; text-transform:uppercase; letter-spacing:0.5px; }
+.card-model { font-size:16px; font-weight:700; margin-top:2px; }
+.card-number { font-size:11px; color:var(--sub); margin-top:2px; }
+.card-prices { display:grid; grid-template-columns:1fr 1fr; gap:6px; margin-bottom:12px; }
+.price-item {
+    display:flex; justify-content:space-between; align-items:center;
+    padding:8px 10px; background:var(--bg); border-radius:8px; font-size:13px;
+}
+.price-label { color:var(--sub); }
+.price-value { font-weight:600; color:var(--green); }
+.price-empty { color:var(--sub); font-style:italic; font-size:12px; }
+.btn-book {
+    width:100%; padding:12px; background:var(--accent); color:#fff;
+    border:none; border-radius:10px; font-size:15px; font-weight:600;
+    cursor:pointer; transition: opacity 0.2s;
+}
+.btn-book:active { opacity:0.7; }
+.no-results { text-align:center; padding:40px 20px; color:var(--sub); }
+.no-results .emoji { font-size:48px; margin-bottom:12px; }
+.loading { text-align:center; padding:60px 20px; color:var(--sub); }
+.spinner { display:inline-block; width:32px; height:32px; border:3px solid var(--border);
+    border-top-color:var(--accent); border-radius:50%; animation:spin 0.8s linear infinite; }
+@keyframes spin { to { transform:rotate(360deg); } }
+.badge { display:inline-block; padding:2px 8px; border-radius:6px; font-size:10px;
+    font-weight:600; background:var(--accent); color:#fff; margin-left:6px; }
+</style>
+</head>
+<body>
+<div class="header">
+    <h1>📱 Прайс-лист</h1>
+    <p>Сервисный центр «С Почином»</p>
+</div>
+<div class="controls">
+    <input type="text" class="search-box" id="search" placeholder="🔍 Поиск модели или номера (A2848)...">
+    <div class="filters">
+        <select class="filter-select" id="brandFilter"><option value="">Все бренды</option></select>
+        <select class="filter-select" id="serviceFilter">
+            <option value="">Все услуги</option>
+            <option value="glass">📱 Стекло</option>
+            <option value="battery">🔋 АКБ</option>
+            <option value="back">🔄 Крышка</option>
+            <option value="hinge">🛠 Шлейф</option>
+        </select>
+    </div>
+</div>
+<div class="stats" id="stats"></div>
+<div id="content"><div class="loading"><div class="spinner"></div><p style="margin-top:12px">Загрузка прайса...</p></div></div>
+
+<script>
+const tg = window.Telegram?.WebApp;
+if (tg) {
+    tg.ready();
+    tg.expand();
+    if (tg.colorScheme === 'dark') document.body.classList.add('dark');
+    tg.setHeaderColor(tg.colorScheme === 'dark' ? '#1a1a2e' : '#ffffff');
+    tg.setBackgroundColor(tg.colorScheme === 'dark' ? '#1a1a2e' : '#ffffff');
+}
+
+const params = new URLSearchParams(window.location.search);
+const clientType = params.get('client') || 'wholesale';
+
+let allData = [];
+
+function adjustPrice(priceStr) {
+    if (!priceStr || clientType !== 'retail') return priceStr;
+    const num = parseInt(priceStr);
+    if (isNaN(num)) return priceStr;
+    let markup = 0;
+    if (num >= 500 && num < 5000) markup = 2000;
+    else if (num >= 5000 && num < 15000) markup = 3000;
+    else if (num >= 15000) markup = 5000;
+    return String(num + markup);
+}
+
+function formatPrice(priceStr) {
+    if (!priceStr || priceStr.toLowerCase() === 'nan' || priceStr === '0' || priceStr === '') return null;
+    const adjusted = adjustPrice(priceStr);
+    return adjusted ? adjusted + ' ₽' : null;
+}
+
+async function loadData() {
+    try {
+        const resp = await fetch('pricelist.json');
+        allData = await resp.json();
+        populateBrands();
+        render();
+    } catch (e) {
+        document.getElementById('content').innerHTML =
+            '<div class="no-results"><div class="emoji">⚠️</div><p>Не удалось загрузить прайс.<br>Убедитесь, что файл pricelist.json доступен.</p></div>';
+    }
+}
+
+function populateBrands() {
+    const brands = [...new Set(allData.map(m => m.brand).filter(Boolean))].sort();
+    const sel = document.getElementById('brandFilter');
+    brands.forEach(b => { const o = document.createElement('option'); o.value = b; o.textContent = b; sel.appendChild(o); });
+}
+
+function getFiltered() {
+    const q = document.getElementById('search').value.toLowerCase().replace(/[^a-z0-9а-яё]/gi, '');
+    const brand = document.getElementById('brandFilter').value;
+    const service = document.getElementById('serviceFilter').value;
+    return allData.filter(m => {
+        if (brand && m.brand !== brand) return false;
+        if (service) {
+            const p = m.prices?.[service];
+            if (!p || p === '' || p === '0' || p.toLowerCase() === 'nan') return false;
+        }
+        if (q) {
+            const searchable = (m.brand + m.model + m.model_number + (m.short_name||'')).toLowerCase().replace(/[^a-z0-9а-яё]/gi, '');
+            if (!searchable.includes(q)) return false;
+        }
+        return true;
+    });
+}
+
+function render() {
+    const filtered = getFiltered();
+    const statsEl = document.getElementById('stats');
+    statsEl.textContent = `Найдено моделей: ${filtered.length} из ${allData.length}` + (clientType === 'retail' ? ' • Розничные цены' : ' • Оптовые цены');
+
+    if (filtered.length === 0) {
+        document.getElementById('content').innerHTML = '<div class="no-results"><div class="emoji">🔍</div><p>Ничего не найдено.<br>Попробуйте изменить запрос.</p></div>';
+        return;
+    }
+
+    const serviceLabels = { glass:'📱 Стекло', battery:'🔋 АКБ', back:'🔄 Крышка', hinge:'🛠 Шлейф' };
+    let html = '<div class="cards">';
+    filtered.forEach((m, idx) => {
+        const prices = m.prices || {};
+        let priceItems = '';
+        let hasAnyPrice = false;
+        for (const [key, label] of Object.entries(serviceLabels)) {
+            const fp = formatPrice(prices[key]);
+            if (fp) {
+                priceItems += `<div class="price-item"><span class="price-label">${label}</span><span class="price-value">${fp}</span></div>`;
+                hasAnyPrice = true;
+            }
+        }
+        if (!hasAnyPrice) {
+            priceItems = '<div class="price-empty" style="grid-column:1/-1">Цены уточняются у оператора</div>';
+        }
+        html += `<div class="card">
+            <div class="card-header"><div>
+                <div class="card-brand">${m.brand || '—'}</div>
+                <div class="card-model">${m.model}</div>
+                ${m.model_number ? `<div class="card-number">Модель: ${m.model_number}</div>` : ''}
+            </div></div>
+            <div class="card-prices">${priceItems}</div>
+            <button class="btn-book" onclick="bookService(${idx})">📝 Записаться на ремонт</button>
+        </div>`;
+    });
+    html += '</div>';
+    document.getElementById('content').innerHTML = html;
+    window._filtered = filtered;
+}
+
+function bookService(idx) {
+    const m = window._filtered[idx];
+    if (!m) return;
+    const data = JSON.stringify({ action:'book', model: m.model, brand: m.brand, model_number: m.model_number || '' });
+    if (tg) { tg.sendData(data); }
+    else { alert('Запись: ' + m.brand + ' ' + m.model); }
+}
+
+document.getElementById('search').addEventListener('input', render);
+document.getElementById('brandFilter').addEventListener('change', render);
+document.getElementById('serviceFilter').addEventListener('change', render);
+
+loadData();
+</script>
+</body>
+</html>
