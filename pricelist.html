@@ -43,37 +43,28 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-
 .info-icon { cursor: pointer; font-size: 14px; opacity: 0.6; transition: opacity 0.2s; }
 .info-icon:active { opacity: 1; }
 
-/* 🔑 ИСПРАВЛЕННЫЙ CSS ДЛЯ МОДАЛЬНОГО ОКНА (РАБОТАЕТ НА ПК) */
-.modal-overlay {
-    display: none;
-    position: fixed;
-    top: 0; left: 0; right: 0; bottom: 0;
-    width: 100%; height: 100vh;
-    background: rgba(0, 0, 0, 0.65);
-    z-index: 9999;
-    justify-content: center;
-    align-items: center;
-    padding: 16px;
-}
-.modal-overlay.show {
-    display: flex;
-}
-.modal-content {
-    background: var(--card);
-    padding: 24px;
-    border-radius: 16px;
-    width: 100%;
-    max-width: 500px;
-    max-height: 85vh;
-    overflow-y: auto;
-    position: relative;
-    box-shadow: 0 10px 25px var(--shadow);
-    border: 1px solid var(--border);
-}
+/* Модальное окно */
+.modal-overlay { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; width: 100%; height: 100vh; background: rgba(0, 0, 0, 0.65); z-index: 9999; justify-content: center; align-items: center; padding: 16px; }
+.modal-overlay.show { display: flex; }
+.modal-content { background: var(--card); padding: 24px; border-radius: 16px; width: 100%; max-width: 500px; max-height: 85vh; overflow-y: auto; position: relative; box-shadow: 0 10px 25px var(--shadow); border: 1px solid var(--border); }
 .modal-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
 .modal-title { font-size: 15px; font-weight: 700; color: var(--accent); flex: 1; padding-right: 10px; }
 .close-btn { font-size: 28px; font-weight: bold; color: var(--sub); cursor: pointer; line-height: 1; padding: 0 4px; }
 .modal-body { font-size: 14px; line-height: 1.5; white-space: pre-wrap; color: var(--text); }
+
+/* 🔑 НОВОЕ: Стили для всплывающего уведомления (Тоста) */
+.toast-notification {
+    position: fixed; bottom: 30px; left: 50%;
+    transform: translateX(-50%) translateY(20px);
+    background: var(--accent); color: #fff;
+    padding: 12px 24px; border-radius: 12px;
+    font-size: 14px; font-weight: 600;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    z-index: 10000; opacity: 0;
+    transition: all 0.3s ease;
+    pointer-events: none; text-align: center; max-width: 90%;
+}
+.toast-notification.show { opacity: 1; transform: translateX(-50%) translateY(0); }
 
 .no-results { text-align:center; padding:40px 20px; color:var(--sub); }
 .no-results .emoji { font-size:48px; margin-bottom:12px; }
@@ -103,7 +94,6 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-
 <div class="stats" id="stats"></div>
 <div id="content"><div class="loading"><div class="spinner"></div><p style="margin-top:12px">Загрузка прайса...</p></div></div>
 
-<!-- 🔑 МОДАЛЬНОЕ ОКНО С НОВЫМ КЛАССОМ overlay -->
 <div class="modal-overlay" id="descModal">
     <div class="modal-content">
         <div class="modal-header">
@@ -113,6 +103,9 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-
         <div class="modal-body" id="modalBody"></div>
     </div>
 </div>
+
+<!-- 🔑 Контейнер для уведомления -->
+<div class="toast-notification" id="toast"></div>
 
 <script>
 const tg = window.Telegram?.WebApp;
@@ -236,54 +229,72 @@ function render() {
     window._filtered = filtered;
 }
 
-// 🔑 ФУНКЦИЯ ПОКАЗА ОПИСАНИЯ (ИСПОЛЬЗУЕМ КЛАСС show)
 function showDesc(serviceKey, modelIdx) {
     const m = window._filtered[modelIdx];
     let desc = m.descriptions[serviceKey] || 'Описание отсутствует.';
-    
     const price = formatPrice(m.prices[serviceKey]) || 'уточняется';
     desc = desc.replace(/\*[^*]+\*/g, price);
-    
     document.getElementById('modalTitle').innerText = `${m.brand} ${m.model} — ${serviceLabels[serviceKey]}`;
     document.getElementById('modalBody').innerText = desc;
-    
-    // Добавляем класс show вместо изменения style.display
     document.getElementById('descModal').classList.add('show');
 }
 
-function closeModal() {
-    document.getElementById('descModal').classList.remove('show');
-}
+function closeModal() { document.getElementById('descModal').classList.remove('show'); }
+document.getElementById('descModal').addEventListener('click', function(event) { if (event.target === this) closeModal(); });
 
-// Закрытие модалки по клику на затемненный фон
-document.getElementById('descModal').addEventListener('click', function(event) {
-    if (event.target === this) closeModal();
-});
-
+// 🔑 НОВАЯ ЛОГИКА КНОПКИ ЗАПИСИ (АВТОКОПИРОВАНИЕ + ОТКРЫТИЕ ЧАТА)
 function bookService(idx) {
     const m = window._filtered[idx];
     if (!m) return;
-    
-    const data = JSON.stringify({ 
-        action: 'book', 
-        model: m.model, 
-        brand: m.brand, 
-        model_number: m.model_number || '',
-        service: 'Услуга из прайса'
-    });
-    
-    if (tg && tg.sendData) {
-        try {
-            tg.sendData(data);
-            tg.close();
-            return;
-        } catch(e) { 
-            console.log('sendData failed, using fallback link'); 
-        }
+
+    // Формируем текст заявки
+    const text = `📝 Запись из прайса\n📱 ${m.brand} ${m.model}\n🔢 ${m.model_number || 'Не указан'}\n💰 Цена: уточняется при записи`;
+
+    // Пытаемся скопировать в буфер обмена
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(() => {
+            showToast("📋 Заявка скопирована! Открываю чат с оператором...");
+            openOperatorChat();
+        }).catch(() => {
+            fallbackCopyAndOpen(text);
+        });
+    } else {
+        fallbackCopyAndOpen(text);
     }
+}
+
+// Фолбэк для старых браузеров или если буфер заблокирован
+function fallbackCopyAndOpen(text) {
+    const textarea = document.createElement('textarea');
+    textarea.value = text;
+    textarea.style.position = 'fixed';
+    textarea.style.opacity = '0';
+    document.body.appendChild(textarea);
+    textarea.select();
+    try { document.execCommand('copy'); } catch (e) {}
+    document.body.removeChild(textarea);
     
-    const text = `📝 Запись из прайса\n📱 ${m.brand} ${m.model}\n🔢 ${m.model_number || 'Не указан'}`;
-    window.location.href = `https://t.me/s_pochinom?text=${encodeURIComponent(text)}`;
+    showToast("📋 Текст скопирован! Вставьте его в чат");
+    openOperatorChat();
+}
+
+// Открываем чат с оператором
+function openOperatorChat() {
+    setTimeout(() => {
+        if (tg && tg.openTelegramLink) {
+            tg.openTelegramLink('https://t.me/s_pochinom');
+        } else {
+            window.open('https://t.me/s_pochinom', '_blank');
+        }
+    }, 1200); // Небольшая задержка, чтобы пользователь успел прочитать уведомление
+}
+
+// Функция показа красивого уведомления
+function showToast(message) {
+    const toast = document.getElementById('toast');
+    toast.innerText = message;
+    toast.classList.add('show');
+    setTimeout(() => { toast.classList.remove('show'); }, 3000);
 }
 
 document.getElementById('search').addEventListener('input', render);
