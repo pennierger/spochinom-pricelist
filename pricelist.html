@@ -43,12 +43,36 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-
 .info-icon { cursor: pointer; font-size: 14px; opacity: 0.6; transition: opacity 0.2s; }
 .info-icon:active { opacity: 1; }
 
-/* Модальное окно */
-.modal { display: none; position: fixed; z-index: 100; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.6); justify-content: center; align-items: center; padding: 20px; }
-.modal-content { background: var(--card); padding: 24px; border-radius: 16px; width: 100%; max-width: 500px; max-height: 80vh; overflow-y: auto; position: relative; box-shadow: 0 10px 25px var(--shadow); border: 1px solid var(--border); }
+/* 🔑 ИСПРАВЛЕННЫЙ CSS ДЛЯ МОДАЛЬНОГО ОКНА (РАБОТАЕТ НА ПК) */
+.modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    width: 100%; height: 100vh;
+    background: rgba(0, 0, 0, 0.65);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+.modal-overlay.show {
+    display: flex;
+}
+.modal-content {
+    background: var(--card);
+    padding: 24px;
+    border-radius: 16px;
+    width: 100%;
+    max-width: 500px;
+    max-height: 85vh;
+    overflow-y: auto;
+    position: relative;
+    box-shadow: 0 10px 25px var(--shadow);
+    border: 1px solid var(--border);
+}
 .modal-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
-.modal-title { font-size: 16px; font-weight: 700; color: var(--accent); }
-.close-btn { font-size: 28px; font-weight: bold; color: var(--sub); cursor: pointer; line-height: 1; }
+.modal-title { font-size: 15px; font-weight: 700; color: var(--accent); flex: 1; padding-right: 10px; }
+.close-btn { font-size: 28px; font-weight: bold; color: var(--sub); cursor: pointer; line-height: 1; padding: 0 4px; }
 .modal-body { font-size: 14px; line-height: 1.5; white-space: pre-wrap; color: var(--text); }
 
 .no-results { text-align:center; padding:40px 20px; color:var(--sub); }
@@ -79,8 +103,8 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-
 <div class="stats" id="stats"></div>
 <div id="content"><div class="loading"><div class="spinner"></div><p style="margin-top:12px">Загрузка прайса...</p></div></div>
 
-<!-- Модальное окно описания -->
-<div class="modal" id="descModal">
+<!-- 🔑 МОДАЛЬНОЕ ОКНО С НОВЫМ КЛАССОМ overlay -->
+<div class="modal-overlay" id="descModal">
     <div class="modal-content">
         <div class="modal-header">
             <div class="modal-title" id="modalTitle">Описание услуги</div>
@@ -212,31 +236,30 @@ function render() {
     window._filtered = filtered;
 }
 
-// 🔑 ФУНКЦИЯ ПОКАЗА ОПИСАНИЯ
+// 🔑 ФУНКЦИЯ ПОКАЗА ОПИСАНИЯ (ИСПОЛЬЗУЕМ КЛАСС show)
 function showDesc(serviceKey, modelIdx) {
     const m = window._filtered[modelIdx];
     let desc = m.descriptions[serviceKey] || 'Описание отсутствует.';
     
-    // Заменяем любые плейсхолдеры в звездочках на актуальную цену
     const price = formatPrice(m.prices[serviceKey]) || 'уточняется';
     desc = desc.replace(/\*[^*]+\*/g, price);
     
     document.getElementById('modalTitle').innerText = `${m.brand} ${m.model} — ${serviceLabels[serviceKey]}`;
     document.getElementById('modalBody').innerText = desc;
-    document.getElementById('descModal').style.display = 'flex';
+    
+    // Добавляем класс show вместо изменения style.display
+    document.getElementById('descModal').classList.add('show');
 }
 
 function closeModal() {
-    document.getElementById('descModal').style.display = 'none';
+    document.getElementById('descModal').classList.remove('show');
 }
 
-// Закрытие модалки по клику вне её
-window.onclick = function(event) {
-    const modal = document.getElementById('descModal');
-    if (event.target == modal) closeModal();
-}
+// Закрытие модалки по клику на затемненный фон
+document.getElementById('descModal').addEventListener('click', function(event) {
+    if (event.target === this) closeModal();
+});
 
-// 🔑 ФУНКЦИЯ ЗАПИСИ (ОТПРАВКА ДАННЫХ В БОТА)
 function bookService(idx) {
     const m = window._filtered[idx];
     if (!m) return;
@@ -252,14 +275,13 @@ function bookService(idx) {
     if (tg && tg.sendData) {
         try {
             tg.sendData(data);
-            tg.close(); // Закрываем Web App после отправки
+            tg.close();
             return;
         } catch(e) { 
             console.log('sendData failed, using fallback link'); 
         }
     }
     
-    // Фолбэк, если sendData не сработал
     const text = `📝 Запись из прайса\n📱 ${m.brand} ${m.model}\n🔢 ${m.model_number || 'Не указан'}`;
     window.location.href = `https://t.me/s_pochinom?text=${encodeURIComponent(text)}`;
 }
