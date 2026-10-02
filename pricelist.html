@@ -35,11 +35,22 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-
 .card-number { font-size:11px; color:var(--sub); margin-top:2px; }
 .card-prices { display:grid; grid-template-columns:1fr 1fr; gap:6px; margin-bottom:12px; }
 .price-item { display:flex; justify-content:space-between; align-items:center; padding:8px 10px; background:var(--bg); border-radius:8px; font-size:13px; }
-.price-label { color:var(--sub); }
+.price-label { color:var(--sub); display: flex; align-items: center; gap: 4px;}
 .price-value { font-weight:600; color:var(--green); }
-.price-empty { color:var(--sub); font-style:italic; font-size:12px; }
+.price-empty { color:var(--sub); font-style:italic; font-size:12px; grid-column: 1/-1; text-align: center;}
 .btn-book { width:100%; padding:12px; background:var(--accent); color:#fff; border:none; border-radius:10px; font-size:15px; font-weight:600; cursor:pointer; transition: opacity 0.2s; }
 .btn-book:active { opacity:0.7; }
+.info-icon { cursor: pointer; font-size: 14px; opacity: 0.6; transition: opacity 0.2s; }
+.info-icon:active { opacity: 1; }
+
+/* Модальное окно */
+.modal { display: none; position: fixed; z-index: 100; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.6); justify-content: center; align-items: center; padding: 20px; }
+.modal-content { background: var(--card); padding: 24px; border-radius: 16px; width: 100%; max-width: 500px; max-height: 80vh; overflow-y: auto; position: relative; box-shadow: 0 10px 25px var(--shadow); border: 1px solid var(--border); }
+.modal-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+.modal-title { font-size: 16px; font-weight: 700; color: var(--accent); }
+.close-btn { font-size: 28px; font-weight: bold; color: var(--sub); cursor: pointer; line-height: 1; }
+.modal-body { font-size: 14px; line-height: 1.5; white-space: pre-wrap; color: var(--text); }
+
 .no-results { text-align:center; padding:40px 20px; color:var(--sub); }
 .no-results .emoji { font-size:48px; margin-bottom:12px; }
 .loading { text-align:center; padding:60px 20px; color:var(--sub); }
@@ -68,6 +79,17 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-
 <div class="stats" id="stats"></div>
 <div id="content"><div class="loading"><div class="spinner"></div><p style="margin-top:12px">Загрузка прайса...</p></div></div>
 
+<!-- Модальное окно описания -->
+<div class="modal" id="descModal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <div class="modal-title" id="modalTitle">Описание услуги</div>
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+        </div>
+        <div class="modal-body" id="modalBody"></div>
+    </div>
+</div>
+
 <script>
 const tg = window.Telegram?.WebApp;
 if (tg) {
@@ -82,6 +104,7 @@ const params = new URLSearchParams(window.location.search);
 const clientType = params.get('client') || 'wholesale';
 
 let allData = [];
+const serviceLabels = { glass:'📱 Стекло', battery:'🔋 АКБ', back:'🔄 Крышка', hinge:'🛠 Шлейф' };
 
 function adjustPrice(priceStr) {
     if (!priceStr || clientType !== 'retail') return priceStr;
@@ -121,20 +144,14 @@ function getFiltered() {
     const searchVal = document.getElementById('search').value.toLowerCase().trim();
     const brand = document.getElementById('brandFilter').value;
     const service = document.getElementById('serviceFilter').value;
-    
-    // 🔑 УМНЫЙ ПОИСК: Разбиваем запрос на слова и ищем совпадение КАЖДОГО слова
     const queryWords = searchVal.split(/\s+/).filter(w => w.length > 0);
 
     return allData.filter(m => {
         if (brand && m.brand !== brand) return false;
-        
-        // Проверка наличия услуги
         if (service) {
             const p = m.prices?.[service];
             if (!p || p === '' || p === '0' || p.toLowerCase() === 'nan') return false;
         }
-        
-        // Поиск по тексту
         if (queryWords.length > 0) {
             const textToSearch = `${m.brand} ${m.model} ${m.model_number} ${m.short_name || ''}`.toLowerCase();
             const match = queryWords.every(word => textToSearch.includes(word));
@@ -160,24 +177,24 @@ function render() {
         let priceItems = '';
         let hasAnyPrice = false;
         
-        // Базовые услуги
-        const serviceLabels = { glass:'📱 Стекло', battery:'🔋 АКБ', back:'🔄 Крышка' };
-        
-        // 🔑 ШЛЕЙФ ТОЛЬКО ДЛЯ СКЛАДНЫХ УСТРОЙСТВ
-        if (m.device_type && m.device_type.toLowerCase().includes('складной')) {
-            serviceLabels.hinge = '🛠 Шлейф';
+        let currentServices = { ...serviceLabels };
+        if (!(m.device_type && m.device_type.toLowerCase().includes('складной'))) {
+            delete currentServices.hinge;
         }
 
-        for (const [key, label] of Object.entries(serviceLabels)) {
+        for (const [key, label] of Object.entries(currentServices)) {
             const fp = formatPrice(prices[key]);
             if (fp) {
-                priceItems += `<div class="price-item"><span class="price-label">${label}</span><span class="price-value">${fp}</span></div>`;
+                priceItems += `<div class="price-item">
+                    <span class="price-label">${label} <span class="info-icon" onclick="showDesc('${key}', ${idx})">ℹ️</span></span>
+                    <span class="price-value">${fp}</span>
+                </div>`;
                 hasAnyPrice = true;
             }
         }
         
         if (!hasAnyPrice) {
-            priceItems = '<div class="price-empty" style="grid-column:1/-1">Цены уточняются у оператора</div>';
+            priceItems = '<div class="price-empty">Цены уточняются у оператора</div>';
         }
         
         html += `<div class="card">
@@ -195,27 +212,56 @@ function render() {
     window._filtered = filtered;
 }
 
-// 🔑 УМНАЯ КНОПКА ЗАПИСИ
+// 🔑 ФУНКЦИЯ ПОКАЗА ОПИСАНИЯ
+function showDesc(serviceKey, modelIdx) {
+    const m = window._filtered[modelIdx];
+    let desc = m.descriptions[serviceKey] || 'Описание отсутствует.';
+    
+    // Заменяем любые плейсхолдеры в звездочках на актуальную цену
+    const price = formatPrice(m.prices[serviceKey]) || 'уточняется';
+    desc = desc.replace(/\*[^*]+\*/g, price);
+    
+    document.getElementById('modalTitle').innerText = `${m.brand} ${m.model} — ${serviceLabels[serviceKey]}`;
+    document.getElementById('modalBody').innerText = desc;
+    document.getElementById('descModal').style.display = 'flex';
+}
+
+function closeModal() {
+    document.getElementById('descModal').style.display = 'none';
+}
+
+// Закрытие модалки по клику вне её
+window.onclick = function(event) {
+    const modal = document.getElementById('descModal');
+    if (event.target == modal) closeModal();
+}
+
+// 🔑 ФУНКЦИЯ ЗАПИСИ (ОТПРАВКА ДАННЫХ В БОТА)
 function bookService(idx) {
     const m = window._filtered[idx];
     if (!m) return;
     
-    const text = `📝 Запись из прайса\n📱 ${m.brand} ${m.model}\n🔢 ${m.model_number || 'Не указан'}`;
-    const encoded = encodeURIComponent(text);
+    const data = JSON.stringify({ 
+        action: 'book', 
+        model: m.model, 
+        brand: m.brand, 
+        model_number: m.model_number || '',
+        service: 'Услуга из прайса'
+    });
     
-    // Пробуем отправить данные в бота (работает, если открыто через BotFather Menu Button)
     if (tg && tg.sendData) {
         try {
-            tg.sendData(JSON.stringify({ action:'book', model: m.model, brand: m.brand, model_number: m.model_number || '' }));
-            tg.close();
+            tg.sendData(data);
+            tg.close(); // Закрываем Web App после отправки
             return;
         } catch(e) { 
             console.log('sendData failed, using fallback link'); 
         }
     }
     
-    // Фолбэк: просто открываем чат с оператором с готовым текстом
-    window.location.href = `https://t.me/s_pochinom?text=${encoded}`;
+    // Фолбэк, если sendData не сработал
+    const text = `📝 Запись из прайса\n📱 ${m.brand} ${m.model}\n🔢 ${m.model_number || 'Не указан'}`;
+    window.location.href = `https://t.me/s_pochinom?text=${encodeURIComponent(text)}`;
 }
 
 document.getElementById('search').addEventListener('input', render);
