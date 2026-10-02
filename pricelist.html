@@ -17,61 +17,34 @@
     --input-bg: #0f3460; --shadow: rgba(0,0,0,0.3);
 }
 * { margin:0; padding:0; box-sizing:border-box; }
-body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    background: var(--bg); color: var(--text);
-    padding: 12px; min-height: 100vh;
-}
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: var(--bg); color: var(--text); padding: 12px; min-height: 100vh; }
 .header { text-align:center; padding: 16px 0 12px; }
 .header h1 { font-size: 20px; font-weight: 700; }
 .header p { font-size: 13px; color: var(--sub); margin-top: 4px; }
 .controls { display:flex; flex-direction:column; gap:8px; margin-bottom:12px; }
-.search-box {
-    width:100%; padding:12px 16px; border:1px solid var(--border);
-    border-radius:12px; font-size:15px; background:var(--input-bg);
-    color:var(--text); outline:none;
-}
+.search-box { width:100%; padding:12px 16px; border:1px solid var(--border); border-radius:12px; font-size:15px; background:var(--input-bg); color:var(--text); outline:none; }
 .search-box:focus { border-color: var(--accent); }
 .filters { display:flex; gap:8px; }
-.filter-select {
-    flex:1; padding:10px 12px; border:1px solid var(--border);
-    border-radius:10px; font-size:14px; background:var(--input-bg);
-    color:var(--text); outline:none; appearance:none;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23666' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
-    background-repeat: no-repeat; background-position: right 12px center;
-}
+.filter-select { flex:1; padding:10px 12px; border:1px solid var(--border); border-radius:10px; font-size:14px; background:var(--input-bg); color:var(--text); outline:none; appearance:none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23666' d='M6 8L1 3h10z'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 12px center; }
 .stats { font-size:12px; color:var(--sub); margin-bottom:8px; padding:0 4px; }
 .cards { display:flex; flex-direction:column; gap:10px; }
-.card {
-    background:var(--card); border-radius:14px; padding:14px;
-    box-shadow: 0 2px 8px var(--shadow); border:1px solid var(--border);
-}
+.card { background:var(--card); border-radius:14px; padding:14px; box-shadow: 0 2px 8px var(--shadow); border:1px solid var(--border); }
 .card-header { display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:10px; }
 .card-brand { font-size:11px; color:var(--accent); font-weight:600; text-transform:uppercase; letter-spacing:0.5px; }
 .card-model { font-size:16px; font-weight:700; margin-top:2px; }
 .card-number { font-size:11px; color:var(--sub); margin-top:2px; }
 .card-prices { display:grid; grid-template-columns:1fr 1fr; gap:6px; margin-bottom:12px; }
-.price-item {
-    display:flex; justify-content:space-between; align-items:center;
-    padding:8px 10px; background:var(--bg); border-radius:8px; font-size:13px;
-}
+.price-item { display:flex; justify-content:space-between; align-items:center; padding:8px 10px; background:var(--bg); border-radius:8px; font-size:13px; }
 .price-label { color:var(--sub); }
 .price-value { font-weight:600; color:var(--green); }
 .price-empty { color:var(--sub); font-style:italic; font-size:12px; }
-.btn-book {
-    width:100%; padding:12px; background:var(--accent); color:#fff;
-    border:none; border-radius:10px; font-size:15px; font-weight:600;
-    cursor:pointer; transition: opacity 0.2s;
-}
+.btn-book { width:100%; padding:12px; background:var(--accent); color:#fff; border:none; border-radius:10px; font-size:15px; font-weight:600; cursor:pointer; transition: opacity 0.2s; }
 .btn-book:active { opacity:0.7; }
 .no-results { text-align:center; padding:40px 20px; color:var(--sub); }
 .no-results .emoji { font-size:48px; margin-bottom:12px; }
 .loading { text-align:center; padding:60px 20px; color:var(--sub); }
-.spinner { display:inline-block; width:32px; height:32px; border:3px solid var(--border);
-    border-top-color:var(--accent); border-radius:50%; animation:spin 0.8s linear infinite; }
+.spinner { display:inline-block; width:32px; height:32px; border:3px solid var(--border); border-top-color:var(--accent); border-radius:50%; animation:spin 0.8s linear infinite; }
 @keyframes spin { to { transform:rotate(360deg); } }
-.badge { display:inline-block; padding:2px 8px; border-radius:6px; font-size:10px;
-    font-weight:600; background:var(--accent); color:#fff; margin-left:6px; }
 </style>
 </head>
 <body>
@@ -80,7 +53,7 @@ body {
     <p>Сервисный центр «С Почином»</p>
 </div>
 <div class="controls">
-    <input type="text" class="search-box" id="search" placeholder="🔍 Поиск модели или номера (A2848)...">
+    <input type="text" class="search-box" id="search" placeholder="🔍 Поиск (например: samsung s21, a52, 13 pro)...">
     <div class="filters">
         <select class="filter-select" id="brandFilter"><option value="">Все бренды</option></select>
         <select class="filter-select" id="serviceFilter">
@@ -134,8 +107,7 @@ async function loadData() {
         populateBrands();
         render();
     } catch (e) {
-        document.getElementById('content').innerHTML =
-            '<div class="no-results"><div class="emoji">⚠️</div><p>Не удалось загрузить прайс.<br>Убедитесь, что файл pricelist.json доступен.</p></div>';
+        document.getElementById('content').innerHTML = '<div class="no-results"><div class="emoji">⚠️</div><p>Не удалось загрузить прайс.</p></div>';
     }
 }
 
@@ -146,18 +118,27 @@ function populateBrands() {
 }
 
 function getFiltered() {
-    const q = document.getElementById('search').value.toLowerCase().replace(/[^a-z0-9а-яё]/gi, '');
+    const searchVal = document.getElementById('search').value.toLowerCase().trim();
     const brand = document.getElementById('brandFilter').value;
     const service = document.getElementById('serviceFilter').value;
+    
+    // 🔑 УМНЫЙ ПОИСК: Разбиваем запрос на слова и ищем совпадение КАЖДОГО слова
+    const queryWords = searchVal.split(/\s+/).filter(w => w.length > 0);
+
     return allData.filter(m => {
         if (brand && m.brand !== brand) return false;
+        
+        // Проверка наличия услуги
         if (service) {
             const p = m.prices?.[service];
             if (!p || p === '' || p === '0' || p.toLowerCase() === 'nan') return false;
         }
-        if (q) {
-            const searchable = (m.brand + m.model + m.model_number + (m.short_name||'')).toLowerCase().replace(/[^a-z0-9а-яё]/gi, '');
-            if (!searchable.includes(q)) return false;
+        
+        // Поиск по тексту
+        if (queryWords.length > 0) {
+            const textToSearch = `${m.brand} ${m.model} ${m.model_number} ${m.short_name || ''}`.toLowerCase();
+            const match = queryWords.every(word => textToSearch.includes(word));
+            if (!match) return false;
         }
         return true;
     });
@@ -173,12 +154,20 @@ function render() {
         return;
     }
 
-    const serviceLabels = { glass:'📱 Стекло', battery:'🔋 АКБ', back:'🔄 Крышка', hinge:'🛠 Шлейф' };
     let html = '<div class="cards">';
     filtered.forEach((m, idx) => {
         const prices = m.prices || {};
         let priceItems = '';
         let hasAnyPrice = false;
+        
+        // Базовые услуги
+        const serviceLabels = { glass:'📱 Стекло', battery:'🔋 АКБ', back:'🔄 Крышка' };
+        
+        // 🔑 ШЛЕЙФ ТОЛЬКО ДЛЯ СКЛАДНЫХ УСТРОЙСТВ
+        if (m.device_type && m.device_type.toLowerCase().includes('складной')) {
+            serviceLabels.hinge = '🛠 Шлейф';
+        }
+
         for (const [key, label] of Object.entries(serviceLabels)) {
             const fp = formatPrice(prices[key]);
             if (fp) {
@@ -186,9 +175,11 @@ function render() {
                 hasAnyPrice = true;
             }
         }
+        
         if (!hasAnyPrice) {
             priceItems = '<div class="price-empty" style="grid-column:1/-1">Цены уточняются у оператора</div>';
         }
+        
         html += `<div class="card">
             <div class="card-header"><div>
                 <div class="card-brand">${m.brand || '—'}</div>
@@ -204,12 +195,27 @@ function render() {
     window._filtered = filtered;
 }
 
+// 🔑 УМНАЯ КНОПКА ЗАПИСИ
 function bookService(idx) {
     const m = window._filtered[idx];
     if (!m) return;
-    const data = JSON.stringify({ action:'book', model: m.model, brand: m.brand, model_number: m.model_number || '' });
-    if (tg) { tg.sendData(data); }
-    else { alert('Запись: ' + m.brand + ' ' + m.model); }
+    
+    const text = `📝 Запись из прайса\n📱 ${m.brand} ${m.model}\n🔢 ${m.model_number || 'Не указан'}`;
+    const encoded = encodeURIComponent(text);
+    
+    // Пробуем отправить данные в бота (работает, если открыто через BotFather Menu Button)
+    if (tg && tg.sendData) {
+        try {
+            tg.sendData(JSON.stringify({ action:'book', model: m.model, brand: m.brand, model_number: m.model_number || '' }));
+            tg.close();
+            return;
+        } catch(e) { 
+            console.log('sendData failed, using fallback link'); 
+        }
+    }
+    
+    // Фолбэк: просто открываем чат с оператором с готовым текстом
+    window.location.href = `https://t.me/s_pochinom?text=${encoded}`;
 }
 
 document.getElementById('search').addEventListener('input', render);
